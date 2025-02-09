@@ -430,7 +430,9 @@
     "pinned_footprint_libs": [
       "GDEK"
     ],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "GDEK"
+    ]
   },
   "meta": {
     "filename": "GDEK.kicad_pro",

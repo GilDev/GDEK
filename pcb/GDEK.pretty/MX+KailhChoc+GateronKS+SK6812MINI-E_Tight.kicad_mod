@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 14.605 0)
+		(at 0 -8.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
@@ -20,6 +20,7 @@
 		(at 0 10.795 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "9196c7a3-cb2a-4e5c-8cb2-12931a46e3d1")
 		(effects
 			(font
@@ -78,8 +79,8 @@
 		(uuid "0f26077e-a4d4-47ed-a721-e72fa35f9c0c")
 	)
 	(fp_circle
-		(center -2.15 2.925)
-		(end -2.3 2.725)
+		(center -2.21 6.44)
+		(end -2.36 6.24)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -550,9 +551,10 @@
 		)
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 12.7 0)
+		(at 0 8.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "635beafc-7527-47c2-a221-661074d6fa96")
 		(effects
 			(font
@@ -583,23 +585,40 @@
 		(uuid "01cfc63f-3172-4d4f-90bb-d580304b0ffb")
 	)
 	(pad "1" smd rect
+		(at 2.75 5.5)
+		(size 2 0.85)
+		(layers "B.Cu")
+		(uuid "1fa18f3e-498f-4ed9-a7ba-1823f53d15df")
+	)
+	(pad "2" smd rect
+		(at 2.75 3.75 180)
+		(size 2 0.85)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(zone_connect 2)
+		(uuid "d7eda8a5-762d-43f8-9b24-dd6a995312a7")
+	)
+	(pad "3" smd rect
+		(at -2.75 3.75 180)
+		(size 2 0.85)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(uuid "78eef97f-840a-429e-8c2a-55eb99c1c802")
+	)
+	(pad "4" smd rect
 		(at -2.75 5.5)
 		(size 2 0.85)
 		(layers "B.Cu" "B.Paste" "B.Mask")
 		(zone_connect 2)
 		(uuid "10ecc42c-1d0f-45a0-bfae-041d1b6cbff7")
 	)
-	(pad "1" thru_hole oval
-		(at 2.54 -5.08 165)
-		(size 4.15 2.3)
-		(drill 1.4
-			(offset -0.85 0)
-		)
+	(pad "5" thru_hole circle
+		(at 2.54 -5.08 180)
+		(size 1.9 1.9)
+		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "5cb1bb6f-18cd-43c3-a2d0-e005a7cd189e")
+		(uuid "1eafd6cc-4d74-4d0d-b19d-786b4bbf5c25")
 	)
-	(pad "1" thru_hole oval
+	(pad "5" thru_hole oval
 		(at 4.7 -4.25 123.6)
 		(size 3.082 2)
 		(drill oval 2.182 1.1)
@@ -607,7 +626,7 @@
 		(remove_unused_layers no)
 		(uuid "c8471140-d71a-4aa5-84fa-4f863dda4a22")
 	)
-	(pad "2" thru_hole circle
+	(pad "6" thru_hole circle
 		(at -3.81 -2.54 180)
 		(size 2.2 2.2)
 		(drill 1.4)
@@ -615,7 +634,7 @@
 		(remove_unused_layers no)
 		(uuid "6ec9bea7-ac37-4ebc-84ce-73d37e7783e8")
 	)
-	(pad "2" thru_hole circle
+	(pad "6" thru_hole circle
 		(at -2.6 -5.75 180)
 		(size 1.9 1.9)
 		(drill 1.1)
@@ -623,32 +642,13 @@
 		(remove_unused_layers no)
 		(uuid "ab12ccdb-63f4-4552-ae3e-e58eebd87f83")
 	)
-	(pad "2" thru_hole circle
+	(pad "6" thru_hole circle
 		(at 0 -5.9 180)
 		(size 1.9 1.9)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "2975b1ca-93eb-4ff5-9402-424f4d8dae41")
-	)
-	(pad "2" smd rect
-		(at 2.75 5.5)
-		(size 2 0.85)
-		(layers "B.Cu")
-		(uuid "1fa18f3e-498f-4ed9-a7ba-1823f53d15df")
-	)
-	(pad "3" smd rect
-		(at 2.75 3.75 180)
-		(size 2 0.85)
-		(layers "B.Cu" "B.Paste" "B.Mask")
-		(zone_connect 2)
-		(uuid "d7eda8a5-762d-43f8-9b24-dd6a995312a7")
-	)
-	(pad "4" smd rect
-		(at -2.75 3.75 180)
-		(size 2 0.85)
-		(layers "B.Cu" "B.Paste" "B.Mask")
-		(uuid "78eef97f-840a-429e-8c2a-55eb99c1c802")
 	)
 	(group ""
 		(uuid "07705b09-7a77-4b52-b9de-92f4a6509a18")
@@ -687,6 +687,7 @@
 		)
 	)
 	(model "${KIPRJMOD}/GDEK.3dshapes/SW_Cherry_MX_PCB.stp"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
@@ -698,6 +699,7 @@
 		)
 	)
 	(model "${KIPRJMOD}/GDEK.3dshapes/SW_Kailh_Choc_V1.stp"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)
