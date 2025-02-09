@@ -428,7 +428,8 @@
   },
   "libraries": {
     "pinned_footprint_libs": [
-      "GDEK"
+      "GDEK",
+      "Keebio-Parts"
     ],
     "pinned_symbol_libs": [
       "GDEK"
