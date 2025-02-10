@@ -4,6 +4,10 @@ Want to try ergonomic keyboards? Don’t know where to start? Don’t want to br
 
 I created this keyboard following [a little crowdfunding campaign](https://fr.ulule.com/clavier-ergonomique-gildev/) I ran for people that were interested in improving their typing comfort but didn’t want to spend too much money on a device they might not like or would like some feature. This keyboard was entirely designed from scratch, after experimenting for some years with a TypeMatrix 2030, a original X-Bows (Kickstarter edition) and a personnal variant of the Sofle Choc RGB.
 
+![GDEKTop](assets/GDEKTop.png)
+
+## Features
+
 * **4×6 matrix**: you don’t risk missing anything, you can always disable things later on in software to see if missing that top number row would work for you. You can even type in [Bépo](https://bepo.fr/) with minimal modifications!
 * **Split**: optimal hands placement, with room in the middle for a trackball or Magic Trackpad, and a simple audio cable to connect the two halves with connectors that won’t mechanically constrain your cable
 * **Compact**: despite the “full” matrix, it’s easy to bring it along
@@ -15,3 +19,5 @@ I created this keyboard following [a little crowdfunding campaign](https://fr.ul
 * **QMK firmware with VIA support**: easily configurable and customizable via a web app
 * **Assembly-friendly**: send the PCB to be assembled and just solder the switches, encoders and audio TRS jack (pretty easy)
 * **Open-source**: you can modify the design to your liking, design a case and so on
+
+![GDEKBottom](assets/GDEKBottom.png)
