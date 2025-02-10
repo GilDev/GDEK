@@ -4419,7 +4419,7 @@
 				)
 			)
 		)
-		(symbol "Memory_Flash:W25Q128JVP"
+		(symbol "Memory_Flash:W25Q128JVS"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4431,7 +4431,7 @@
 					)
 				)
 			)
-			(property "Value" "W25Q128JVP"
+			(property "Value" "W25Q128JVS"
 				(at 7.62 11.43 0)
 				(effects
 					(font
@@ -4439,7 +4439,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
+			(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
 				(at 0 22.86 0)
 				(effects
 					(font
@@ -4457,7 +4457,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, WSON-8"
+			(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
 				(at 0 27.94 0)
 				(effects
 					(font
@@ -4466,7 +4466,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "flash memory SPI"
+			(property "ki_keywords" "flash memory SPI QPI DTR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4475,7 +4475,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "WSON*1EP*6x5mm*P1.27mm*EP3.4x4.3mm*"
+			(property "ki_fp_filters" "SOIC*5.23x5.23mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4484,7 +4484,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "W25Q128JVP_0_1"
+			(symbol "W25Q128JVS_0_1"
 				(rectangle
 					(start -7.62 10.16)
 					(end 7.62 -10.16)
@@ -4497,7 +4497,7 @@
 					)
 				)
 			)
-			(symbol "W25Q128JVP_1_1"
+			(symbol "W25Q128JVS_1_1"
 				(pin input line
 					(at -10.16 7.62 0)
 					(length 2.54)
@@ -27377,12 +27377,6 @@
 		(uuid "028fdadf-8f2e-4186-b6f9-728f9def5d83")
 	)
 	(junction
-		(at 306.07 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "037c786f-0968-445d-a16c-61c04bb03763")
-	)
-	(junction
 		(at 367.03 374.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27417,12 +27411,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0853b607-a9f5-4de0-80eb-8de2d0bd81f1")
-	)
-	(junction
-		(at 290.83 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "094c881d-6dd5-4c9f-adb1-a2aee8c2ff5d")
 	)
 	(junction
 		(at 321.31 74.93)
@@ -27503,6 +27491,12 @@
 		(uuid "1762a544-0a40-487c-9840-e6e52ad7a140")
 	)
 	(junction
+		(at 306.07 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17eb6488-0f32-490e-a23b-36ac2548b232")
+	)
+	(junction
 		(at 48.26 431.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27581,12 +27575,6 @@
 		(uuid "1fbfc0fe-3eda-4266-ae24-653996dd3052")
 	)
 	(junction
-		(at 351.79 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "203657ac-a43a-4127-b9e6-199d82a99881")
-	)
-	(junction
 		(at 341.63 420.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27635,16 +27623,16 @@
 		(uuid "2763a699-11b2-4d6d-8f46-d0d9b114e45e")
 	)
 	(junction
-		(at 351.79 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "29423997-1b1a-4293-8542-a358e233e623")
-	)
-	(junction
 		(at 354.33 407.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a333265-feb4-4907-99e7-f88f67cf3e87")
+	)
+	(junction
+		(at 321.31 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a627108-4e58-4917-8fa7-ec63d2f6d924")
 	)
 	(junction
 		(at 104.14 105.41)
@@ -27663,6 +27651,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c1b0378-86b5-4dab-9b2e-b117cb25a97b")
+	)
+	(junction
+		(at 186.69 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cec7c7b-7af1-43e2-92ae-2b45a39886e8")
 	)
 	(junction
 		(at 354.33 433.07)
@@ -27725,13 +27719,19 @@
 		(uuid "326ca461-8728-4b86-a01f-9b1665f9a207")
 	)
 	(junction
+		(at 290.83 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "337f1102-6c8f-4b83-9318-50e9c5112266")
+	)
+	(junction
 		(at 336.55 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3458d947-e310-4b7f-beb0-953f5843fd86")
 	)
 	(junction
-		(at 81.28 44.45)
+		(at 85.09 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36b8aa9f-fce7-4a66-884d-52e78a4d6a72")
@@ -27747,12 +27747,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "398099cc-0c8e-471a-b743-8d86c4e00139")
-	)
-	(junction
-		(at 336.55 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a661e24-0deb-48f7-b173-fc79ee286d54")
 	)
 	(junction
 		(at 76.2 351.79)
@@ -27815,12 +27809,6 @@
 		(uuid "3f39b597-3428-4184-9a3f-30b5ec86d58a")
 	)
 	(junction
-		(at 306.07 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "406d04e4-1959-4efd-a490-1c460cebacb9")
-	)
-	(junction
 		(at 303.53 407.67)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -27875,10 +27863,22 @@
 		(uuid "45b6c000-0789-4333-8ca3-22ed294dc0d7")
 	)
 	(junction
+		(at 351.79 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "465c0d38-05ac-425f-9545-e93faaa7656c")
+	)
+	(junction
 		(at 115.57 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "46c9ab80-ba9f-4231-895f-6ae8b38b853f")
+	)
+	(junction
+		(at 306.07 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47ab89b4-d5d8-4554-b161-5d2d7007ca7b")
 	)
 	(junction
 		(at 341.63 433.07)
@@ -27923,10 +27923,10 @@
 		(uuid "4ee1402f-603e-4d5f-91ef-8460309f6d44")
 	)
 	(junction
-		(at 306.07 80.01)
+		(at 321.31 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5054252e-94a6-4759-8e94-2a53cad32440")
+		(uuid "50e8b937-166a-426d-bfe6-0faeaff6f183")
 	)
 	(junction
 		(at 351.79 120.65)
@@ -27965,12 +27965,6 @@
 		(uuid "587ed3c9-8339-4ac6-a960-7f97e4994e82")
 	)
 	(junction
-		(at 321.31 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "591f27ed-ee93-4dbf-bb94-55ab4e155fef")
-	)
-	(junction
 		(at 367.03 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28007,6 +28001,12 @@
 		(uuid "5d5039cb-eeec-42c6-95df-ba7c9ef4a159")
 	)
 	(junction
+		(at 367.03 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5d959641-8d55-43b7-89cd-26c67ca0bef8")
+	)
+	(junction
 		(at 157.48 351.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28017,6 +28017,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f5911c9-d5e0-43e8-9a2a-b1e88d769273")
+	)
+	(junction
+		(at 186.69 426.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "612d5a68-fd1b-4d6b-a531-26049f04e207")
 	)
 	(junction
 		(at 210.82 40.64)
@@ -28043,18 +28049,6 @@
 		(uuid "669d52ab-3a4e-4946-8182-fd1f5fc0d9ac")
 	)
 	(junction
-		(at 186.69 426.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66f4d20e-8c59-4586-aab2-a4f6efe84841")
-	)
-	(junction
-		(at 351.79 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6767171f-1f2d-4ad0-94d2-1d6e74baa1a0")
-	)
-	(junction
 		(at 313.69 453.39)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28071,12 +28065,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "685cc611-f49c-46d3-9f9c-309fda837444")
-	)
-	(junction
-		(at 321.31 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "68f4015f-0bf5-47e6-a1b0-abc3269322dd")
 	)
 	(junction
 		(at 63.5 431.8)
@@ -28115,16 +28103,16 @@
 		(uuid "6eee53fb-09bc-4edf-afca-abc8b0b762d0")
 	)
 	(junction
-		(at 367.03 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "70fa3d35-068c-475b-832a-127c51d500fe")
-	)
-	(junction
 		(at 91.44 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71bcc63f-abb7-4de8-8f82-6040d23a6f26")
+	)
+	(junction
+		(at 321.31 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "72875106-6943-4ba7-b965-1e757c4c4b08")
 	)
 	(junction
 		(at 351.79 453.39)
@@ -28161,12 +28149,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75ccdc60-82ad-4ee4-b68d-505898eb2ed4")
-	)
-	(junction
-		(at 321.31 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75f5fa89-6a48-492f-ac0c-4af115c8dd7f")
 	)
 	(junction
 		(at 123.19 36.83)
@@ -28209,12 +28191,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7acf1801-6493-44e3-bbcf-1d6553230c83")
-	)
-	(junction
-		(at 367.03 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7b09c730-5c03-4fdf-b60b-89204581b26a")
 	)
 	(junction
 		(at 328.93 433.07)
@@ -28277,22 +28253,10 @@
 		(uuid "83d535b8-8457-4d13-a2ab-dc7d5fa00a9b")
 	)
 	(junction
-		(at 186.69 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "845a585c-ae5a-4ad0-be3a-5461afeb4419")
-	)
-	(junction
 		(at 306.07 359.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84fe3b2b-ff4a-41cc-a250-cefc740b259a")
-	)
-	(junction
-		(at 321.31 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8529e6de-f0ae-4277-bd1f-bf719066d518")
 	)
 	(junction
 		(at 300.99 466.09)
@@ -28361,12 +28325,6 @@
 		(uuid "8eddcb07-0982-4d75-9afd-9d8dcfef80d2")
 	)
 	(junction
-		(at 351.79 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f8c76c3-cf17-4540-ab31-b453a403a417")
-	)
-	(junction
 		(at 336.55 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28433,6 +28391,12 @@
 		(uuid "9c739eb9-063b-4a4d-a661-e25ef036ffa2")
 	)
 	(junction
+		(at 321.31 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9cb572fb-8246-4844-bab7-5a7f543b6d1e")
+	)
+	(junction
 		(at 321.31 354.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28473,6 +28437,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a3d0b775-80ad-40fd-8d4e-ad52b0f2773c")
+	)
+	(junction
+		(at 336.55 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e86f6c-cb21-408a-8b0e-2c4e41eb8aba")
 	)
 	(junction
 		(at 382.27 334.01)
@@ -28541,12 +28511,6 @@
 		(uuid "ab48017b-fe92-4404-9845-5c3409df0289")
 	)
 	(junction
-		(at 290.83 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab633088-8889-4f40-b693-c40c9dfdddd3")
-	)
-	(junction
 		(at 290.83 339.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28557,6 +28521,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abbdb9c4-b5dd-4bc7-b0e1-b791138923da")
+	)
+	(junction
+		(at 306.07 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abfe3e36-69eb-423c-959a-4895695d1488")
 	)
 	(junction
 		(at 336.55 339.09)
@@ -28703,6 +28673,12 @@
 		(uuid "c101a9d9-5023-4b4b-952a-2eba44474edd")
 	)
 	(junction
+		(at 351.79 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c12a6d0f-551e-47aa-8676-d8b53bd07b0e")
+	)
+	(junction
 		(at 321.31 298.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28769,16 +28745,16 @@
 		(uuid "c6fba03e-eb36-41ae-ba5a-926a523d32e8")
 	)
 	(junction
-		(at 336.55 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8bcec61-c9bc-48be-b559-5f140ad535ec")
-	)
-	(junction
 		(at 303.53 420.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca74586d-22a8-4263-aa63-c1a67d639593")
+	)
+	(junction
+		(at 306.07 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb21ef17-9f8c-45d8-886a-db62d5f162d7")
 	)
 	(junction
 		(at 185.42 113.03)
@@ -28865,6 +28841,18 @@
 		(uuid "d81cdf46-3736-4e4d-8cc1-600a0f3af142")
 	)
 	(junction
+		(at 290.83 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da0c53a1-0a94-4623-8bfa-94ceedb804ee")
+	)
+	(junction
+		(at 351.79 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "da1421c3-cc28-490f-a2fb-f0a098ce40e8")
+	)
+	(junction
 		(at 290.83 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28925,6 +28913,12 @@
 		(uuid "e45b2edf-d9e9-47d9-a21d-2d523cdc7eca")
 	)
 	(junction
+		(at 367.03 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4ac02d0-4939-48df-97d7-226ea2af096d")
+	)
+	(junction
 		(at 354.33 445.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -28959,6 +28953,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9a57f9b-1efc-4233-9fb0-06e9037ba272")
+	)
+	(junction
+		(at 351.79 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eb92078e-bba3-4621-beb3-48555cfab4ad")
 	)
 	(junction
 		(at 341.63 168.91)
@@ -29013,6 +29013,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f46ee821-84aa-49a1-9bcb-97386e341ccb")
+	)
+	(junction
+		(at 336.55 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f47f8705-6d47-4e5e-9778-1dc620483835")
 	)
 	(junction
 		(at 300.99 201.93)
@@ -29081,12 +29087,6 @@
 		(uuid "fdead4d4-6af7-4cd0-8787-0d8503cbb79a")
 	)
 	(junction
-		(at 306.07 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fe2597bb-dd12-446b-b85b-f784f52ed54e")
-	)
-	(junction
 		(at 316.23 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -29101,6 +29101,10 @@
 		(uuid "0c6d4bbb-fcf6-4d55-9c7a-82d89c26f38d")
 	)
 	(no_connect
+		(at 133.35 154.94)
+		(uuid "106605fc-499a-489d-863d-f0f07f621bf2")
+	)
+	(no_connect
 		(at 190.5 274.32)
 		(uuid "108cd8ab-009b-4371-b9bb-72b46e1a48a6")
 	)
@@ -29109,28 +29113,28 @@
 		(uuid "10c87afb-b067-48d4-9469-d0312d618376")
 	)
 	(no_connect
-		(at 133.35 193.04)
-		(uuid "16f957a7-26e1-4d11-ae06-a02d15e0eac4")
-	)
-	(no_connect
 		(at 133.35 419.1)
 		(uuid "1cf22626-1772-4818-ad56-c9b5c59b5308")
 	)
 	(no_connect
-		(at 133.35 205.74)
-		(uuid "1fb85bce-7c20-434a-aaf2-3b89d2f2564d")
+		(at 133.35 160.02)
+		(uuid "2a0252e7-37d1-43cd-8d89-3a9df4ef9cfa")
 	)
 	(no_connect
 		(at 133.35 429.26)
 		(uuid "32c21c84-5670-4b3c-b8e1-758fecd20d61")
 	)
 	(no_connect
-		(at 133.35 190.5)
-		(uuid "45f37673-1654-416f-89f2-b562418e6745")
+		(at 133.35 142.24)
+		(uuid "4c81cc1d-405f-42e4-9a8a-5d94b0b46847")
 	)
 	(no_connect
-		(at 133.35 195.58)
-		(uuid "4c862b9f-5d17-4d31-866f-6a96718ec925")
+		(at 133.35 149.86)
+		(uuid "5c4a78ff-ad17-4725-afd8-dea8815f3beb")
+	)
+	(no_connect
+		(at 133.35 144.78)
+		(uuid "62561520-6e87-415f-98e1-d4103f6d8981")
 	)
 	(no_connect
 		(at 133.35 421.64)
@@ -29141,32 +29145,28 @@
 		(uuid "6fd273b5-7437-40a4-811c-845c72ac4e39")
 	)
 	(no_connect
+		(at 133.35 147.32)
+		(uuid "743dae97-5011-4b8f-ae04-2a686ccb864b")
+	)
+	(no_connect
 		(at 133.35 436.88)
 		(uuid "786a0781-ee87-49bc-b301-889ec6905bb8")
 	)
 	(no_connect
 		(at 133.35 180.34)
-		(uuid "7b744568-a915-42bb-bf23-e688b3b0e422")
+		(uuid "7b3ce954-4bd5-41cb-a232-45cfade0f0a3")
 	)
 	(no_connect
 		(at 133.35 444.5)
 		(uuid "7f9422b9-111a-486a-8f66-989d630b280c")
 	)
 	(no_connect
-		(at 133.35 185.42)
-		(uuid "7fd7337d-b189-4b99-89c0-c8e6fbf88907")
-	)
-	(no_connect
-		(at 133.35 187.96)
-		(uuid "87a23eea-6511-4d11-8b3d-6886f3bf925e")
+		(at 133.35 165.1)
+		(uuid "85e0eb5e-24f1-4efe-ba56-4b95ee314312")
 	)
 	(no_connect
 		(at 190.5 35.56)
 		(uuid "8db72907-74d8-437f-96c1-787e958246b6")
-	)
-	(no_connect
-		(at 133.35 200.66)
-		(uuid "99d77ee1-59fe-459f-943c-87e9af0e1da5")
 	)
 	(no_connect
 		(at 133.35 449.58)
@@ -29177,12 +29177,16 @@
 		(uuid "9e912769-dc8f-4843-b937-bd4f200cc818")
 	)
 	(no_connect
-		(at 133.35 208.28)
-		(uuid "a25c87d3-e159-426c-9abe-f245c2ec6332")
+		(at 133.35 157.48)
+		(uuid "aa7d6217-66cd-4fcc-988e-20ee6af840bc")
 	)
 	(no_connect
-		(at 133.35 182.88)
-		(uuid "c5c4f27c-4a7d-411a-84e0-bb0bd5d398ac")
+		(at 133.35 177.8)
+		(uuid "ae0a8bf1-b712-4970-a5d3-fa5e17c0bd79")
+	)
+	(no_connect
+		(at 133.35 162.56)
+		(uuid "bbe21f8e-5f00-431f-bcf2-bcfeeaeb63c8")
 	)
 	(no_connect
 		(at 133.35 447.04)
@@ -29193,12 +29197,12 @@
 		(uuid "cf6beebe-a222-4135-a0b4-1fe3d49a217e")
 	)
 	(no_connect
-		(at 133.35 198.12)
-		(uuid "d0da7fe0-3878-4f23-b707-a6c4ca850503")
-	)
-	(no_connect
 		(at 374.65 367.03)
 		(uuid "d2bb9253-eca9-458e-8db1-86172c608e82")
+	)
+	(no_connect
+		(at 133.35 152.4)
+		(uuid "d702279e-7160-4979-8fb5-371ff778ff01")
 	)
 	(no_connect
 		(at 133.35 434.34)
@@ -29213,10 +29217,6 @@
 		(uuid "efc4bd32-6782-4ac5-8c16-405ef14ad2ec")
 	)
 	(no_connect
-		(at 133.35 210.82)
-		(uuid "f1bcdbda-8200-404c-aeb5-2f0abeb42789")
-	)
-	(no_connect
 		(at 66.04 306.07)
 		(uuid "fdd404e6-c532-4551-a633-5751217c874d")
 	)
@@ -29229,6 +29229,16 @@
 			(type default)
 		)
 		(uuid "003c0231-46b2-427c-a7e0-c0dec6889be7")
+	)
+	(wire
+		(pts
+			(xy 351.79 54.61) (xy 367.03 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "006f041d-310c-4a34-ab6f-9e50fef60f1e")
 	)
 	(wire
 		(pts
@@ -29252,13 +29262,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 41.91) (xy 66.04 41.91)
+			(xy 77.47 41.91) (xy 66.04 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00f96f2e-063d-4174-b8c8-cb6beffa2d41")
+	)
+	(wire
+		(pts
+			(xy 290.83 39.37) (xy 306.07 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "011af117-4b4c-4fc8-8238-af94d6e0aad7")
 	)
 	(wire
 		(pts
@@ -29309,6 +29329,16 @@
 			(type default)
 		)
 		(uuid "02e2773f-0753-4a9c-ab6b-e1348eadad6e")
+	)
+	(wire
+		(pts
+			(xy 351.79 39.37) (xy 367.03 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03089329-688c-45d3-a9a2-2a34a03cf9a3")
 	)
 	(wire
 		(pts
@@ -29459,26 +29489,6 @@
 			(type default)
 		)
 		(uuid "0cfa72e5-6baf-4b81-ab98-128e37b360d7")
-	)
-	(wire
-		(pts
-			(xy 367.03 95.25) (xy 382.27 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d1d2c35-7f0d-408b-9c3a-1f71d2d512b1")
-	)
-	(wire
-		(pts
-			(xy 290.83 39.37) (xy 306.07 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e029388-8497-4024-9c8f-d3d2103b0a0a")
 	)
 	(wire
 		(pts
@@ -29662,13 +29672,23 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 172.72) (xy 149.86 172.72)
+			(xy 133.35 170.18) (xy 149.86 170.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "136f9e92-610d-40ec-ac44-80bed5155cda")
+	)
+	(wire
+		(pts
+			(xy 336.55 95.25) (xy 351.79 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a24b91-8373-4431-a389-12124f8be181")
 	)
 	(wire
 		(pts
@@ -29732,16 +29752,6 @@
 	)
 	(wire
 		(pts
-			(xy 321.31 95.25) (xy 336.55 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16944fa8-1c30-403d-b643-373557fc3f95")
-	)
-	(wire
-		(pts
 			(xy 185.42 313.69) (xy 194.31 313.69)
 		)
 		(stroke
@@ -29749,6 +29759,16 @@
 			(type default)
 		)
 		(uuid "172244b4-0299-42f5-9412-5274678f9b37")
+	)
+	(wire
+		(pts
+			(xy 351.79 95.25) (xy 367.03 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1744e14a-2e86-4cc0-88f2-5dff3033fa0d")
 	)
 	(wire
 		(pts
@@ -29779,6 +29799,16 @@
 			(type default)
 		)
 		(uuid "1812565f-1c38-4551-9508-273c5479e983")
+	)
+	(wire
+		(pts
+			(xy 351.79 80.01) (xy 367.03 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1837147b-3d14-4878-b49c-3cebe35f0a6f")
 	)
 	(wire
 		(pts
@@ -29992,16 +30022,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 137.16) (xy 133.35 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "227e5307-cfb1-4a8a-83ae-fc12fad2852b")
-	)
-	(wire
-		(pts
 			(xy 303.53 207.01) (xy 303.53 219.71)
 		)
 		(stroke
@@ -30012,7 +30032,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 157.48) (xy 149.86 157.48)
+			(xy 133.35 193.04) (xy 149.86 193.04)
 		)
 		(stroke
 			(width 0)
@@ -30039,16 +30059,6 @@
 			(type default)
 		)
 		(uuid "232af8fe-6916-4c65-bb6c-4c3bdaabeb89")
-	)
-	(wire
-		(pts
-			(xy 133.35 213.36) (xy 137.16 213.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2360e251-6cb1-41c6-bf87-012d8e6d4785")
 	)
 	(wire
 		(pts
@@ -30112,6 +30122,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 213.36) (xy 149.86 213.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25fc7138-85e6-4874-8fd2-8d17937fbb52")
+	)
+	(wire
+		(pts
 			(xy 336.55 293.37) (xy 351.79 293.37)
 		)
 		(stroke
@@ -30159,16 +30179,6 @@
 			(type default)
 		)
 		(uuid "282111cc-8447-4563-98f3-791d522c6c32")
-	)
-	(wire
-		(pts
-			(xy 336.55 95.25) (xy 351.79 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "283f2442-9363-4429-a287-b8de3fb750c5")
 	)
 	(wire
 		(pts
@@ -30232,17 +30242,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 95.25) (xy 367.03 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2addc2b6-2ae1-4278-ba94-f564ffcd5a14")
-	)
-	(wire
-		(pts
-			(xy 133.35 149.86) (xy 149.86 149.86)
+			(xy 133.35 200.66) (xy 149.86 200.66)
 		)
 		(stroke
 			(width 0)
@@ -30462,7 +30462,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 144.78) (xy 149.86 144.78)
+			(xy 133.35 208.28) (xy 149.86 208.28)
 		)
 		(stroke
 			(width 0)
@@ -30569,6 +30569,16 @@
 			(type default)
 		)
 		(uuid "3b9daf9c-6683-47ad-a8ba-f5abadb830a9")
+	)
+	(wire
+		(pts
+			(xy 321.31 54.61) (xy 336.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bb86ae3-3c7f-48cf-9ce0-197e8da34607")
 	)
 	(wire
 		(pts
@@ -30792,6 +30802,16 @@
 	)
 	(wire
 		(pts
+			(xy 306.07 54.61) (xy 321.31 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436a67bd-da0f-44bb-b129-ed1fa50eec6f")
+	)
+	(wire
+		(pts
 			(xy 341.63 407.67) (xy 341.63 420.37)
 		)
 		(stroke
@@ -30842,6 +30862,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 54.61) (xy 382.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "451d8286-7e17-4ffa-b33b-5b11360897c2")
+	)
+	(wire
+		(pts
 			(xy 321.31 318.77) (xy 336.55 318.77)
 		)
 		(stroke
@@ -30872,7 +30902,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 177.8) (xy 149.86 177.8)
+			(xy 133.35 175.26) (xy 149.86 175.26)
 		)
 		(stroke
 			(width 0)
@@ -30899,16 +30929,6 @@
 			(type default)
 		)
 		(uuid "48986172-6ac2-436e-b8a1-6c4b286af08d")
-	)
-	(wire
-		(pts
-			(xy 306.07 54.61) (xy 321.31 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48d4dc02-f7c4-4111-80be-4e4c166df266")
 	)
 	(wire
 		(pts
@@ -31009,16 +31029,6 @@
 			(type default)
 		)
 		(uuid "4d64ae1a-51b2-4f50-b0bc-0478d8c61676")
-	)
-	(wire
-		(pts
-			(xy 367.03 54.61) (xy 382.27 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4d75ae5e-8b5a-496b-a0c1-047656a09b79")
 	)
 	(wire
 		(pts
@@ -31182,7 +31192,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 165.1) (xy 149.86 165.1)
+			(xy 133.35 187.96) (xy 149.86 187.96)
 		)
 		(stroke
 			(width 0)
@@ -31412,7 +31422,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 160.02) (xy 149.86 160.02)
+			(xy 133.35 210.82) (xy 149.86 210.82)
 		)
 		(stroke
 			(width 0)
@@ -31429,16 +31439,6 @@
 			(type default)
 		)
 		(uuid "5fd1e320-a88b-4137-a129-177007188896")
-	)
-	(wire
-		(pts
-			(xy 321.31 80.01) (xy 336.55 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5feb3e59-b13e-45f2-9e91-972167d64dc9")
 	)
 	(wire
 		(pts
@@ -31592,16 +31592,6 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 39.37) (xy 321.31 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "686371f2-96b7-4afa-b280-91effc574c08")
-	)
-	(wire
-		(pts
 			(xy 290.83 181.61) (xy 290.83 194.31)
 		)
 		(stroke
@@ -31632,7 +31622,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 36.83) (xy 91.44 36.83)
+			(xy 85.09 36.83) (xy 91.44 36.83)
 		)
 		(stroke
 			(width 0)
@@ -31822,7 +31812,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 44.45) (xy 73.66 44.45)
+			(xy 66.04 44.45) (xy 77.47 44.45)
 		)
 		(stroke
 			(width 0)
@@ -31912,16 +31902,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 54.61) (xy 367.03 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79d2dfb4-c351-4b9b-bfaf-9cbd28327728")
-	)
-	(wire
-		(pts
 			(xy 279.4 440.69) (xy 300.99 440.69)
 		)
 		(stroke
@@ -32002,7 +31982,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 142.24) (xy 133.35 142.24)
+			(xy 149.86 139.7) (xy 133.35 139.7)
 		)
 		(stroke
 			(width 0)
@@ -32042,16 +32022,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 80.01) (xy 367.03 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7dc8f4ed-7521-4d1c-969e-a09133d4e582")
-	)
-	(wire
-		(pts
 			(xy 339.09 224.79) (xy 339.09 227.33)
 		)
 		(stroke
@@ -32079,6 +32049,16 @@
 			(type default)
 		)
 		(uuid "7e274722-871a-4547-83e6-ddf1d222ae7f")
+	)
+	(wire
+		(pts
+			(xy 306.07 80.01) (xy 321.31 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fa4b9cc-3fbd-4fdc-9ae8-46f9c5b803e8")
 	)
 	(wire
 		(pts
@@ -32152,7 +32132,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 213.36) (xy 148.59 213.36)
+			(xy 161.29 167.64) (xy 165.1 167.64)
 		)
 		(stroke
 			(width 0)
@@ -32302,7 +32282,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 154.94) (xy 149.86 154.94)
+			(xy 133.35 195.58) (xy 149.86 195.58)
 		)
 		(stroke
 			(width 0)
@@ -32379,6 +32359,16 @@
 			(type default)
 		)
 		(uuid "8e76715e-583d-4f40-bfb9-358579cf39c0")
+	)
+	(wire
+		(pts
+			(xy 290.83 80.01) (xy 306.07 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8eae9097-887d-41f0-a427-b962743ca4f2")
 	)
 	(wire
 		(pts
@@ -32462,7 +32452,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 170.18) (xy 149.86 170.18)
+			(xy 133.35 182.88) (xy 149.86 182.88)
 		)
 		(stroke
 			(width 0)
@@ -32489,16 +32479,6 @@
 			(type default)
 		)
 		(uuid "926491e1-2f0a-46fa-97f1-a37ebabea604")
-	)
-	(wire
-		(pts
-			(xy 336.55 80.01) (xy 351.79 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9275c9ee-4b69-47cf-bf32-770f5187bc7b")
 	)
 	(wire
 		(pts
@@ -32592,16 +32572,6 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 80.01) (xy 306.07 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "96560373-0199-46a5-b9ec-84d0f9e95dae")
-	)
-	(wire
-		(pts
 			(xy 279.4 227.33) (xy 300.99 227.33)
 		)
 		(stroke
@@ -32619,16 +32589,6 @@
 			(type default)
 		)
 		(uuid "987f32e3-c133-4b7c-bb31-0025f9f8e77a")
-	)
-	(wire
-		(pts
-			(xy 306.07 80.01) (xy 321.31 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "990ef60e-1149-46ea-93ca-5f8a2dbe4a90")
 	)
 	(wire
 		(pts
@@ -32652,13 +32612,13 @@
 	)
 	(wire
 		(pts
-			(xy 306.07 95.25) (xy 321.31 95.25)
+			(xy 306.07 39.37) (xy 321.31 39.37)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9c7f8b3b-544e-457e-87ad-1c8eac1e5036")
+		(uuid "9d1d2c22-20e2-49c7-9094-f680246c22ff")
 	)
 	(wire
 		(pts
@@ -32812,6 +32772,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 80.01) (xy 336.55 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a412da9e-ca9b-4a58-947c-320c24f53c12")
+	)
+	(wire
+		(pts
 			(xy 306.07 339.09) (xy 321.31 339.09)
 		)
 		(stroke
@@ -32932,7 +32902,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 139.7) (xy 133.35 139.7)
+			(xy 149.86 137.16) (xy 133.35 137.16)
 		)
 		(stroke
 			(width 0)
@@ -32949,16 +32919,6 @@
 			(type default)
 		)
 		(uuid "a9641e26-dea0-460d-bc9f-3dd610fc4ab7")
-	)
-	(wire
-		(pts
-			(xy 321.31 39.37) (xy 336.55 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa790580-b0c0-4bbd-b40c-e9a0eaabf4cf")
 	)
 	(wire
 		(pts
@@ -33112,7 +33072,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 175.26) (xy 149.86 175.26)
+			(xy 133.35 172.72) (xy 149.86 172.72)
 		)
 		(stroke
 			(width 0)
@@ -33389,6 +33349,16 @@
 			(type default)
 		)
 		(uuid "bc8ef805-add9-4ecd-a44d-4de78a275abf")
+	)
+	(wire
+		(pts
+			(xy 321.31 39.37) (xy 336.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd721e57-ac63-4cd1-9480-fca8c71057c1")
 	)
 	(wire
 		(pts
@@ -33772,6 +33742,16 @@
 	)
 	(wire
 		(pts
+			(xy 321.31 95.25) (xy 336.55 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18484ca-7d4a-498e-aac0-aa8dfe795e30")
+	)
+	(wire
+		(pts
 			(xy 300.99 224.79) (xy 300.99 227.33)
 		)
 		(stroke
@@ -33942,6 +33922,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 167.64) (xy 133.35 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cdc59b-710d-4973-a990-179381913caa")
+	)
+	(wire
+		(pts
 			(xy 326.39 199.39) (xy 326.39 201.93)
 		)
 		(stroke
@@ -34002,7 +33992,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 147.32) (xy 149.86 147.32)
+			(xy 133.35 205.74) (xy 149.86 205.74)
 		)
 		(stroke
 			(width 0)
@@ -34079,16 +34069,6 @@
 			(type default)
 		)
 		(uuid "e02716dc-929f-4fbf-a91c-212652b42cff")
-	)
-	(wire
-		(pts
-			(xy 351.79 39.37) (xy 367.03 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e08d7442-1ee2-4dfe-b321-0577eb2970b8")
 	)
 	(wire
 		(pts
@@ -34169,6 +34149,16 @@
 			(type default)
 		)
 		(uuid "e3bc5a40-1a2b-49ad-a53b-ef0831cf47bd")
+	)
+	(wire
+		(pts
+			(xy 306.07 95.25) (xy 321.31 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3cc8cc0-01d9-4af4-a16d-0324353df60e")
 	)
 	(wire
 		(pts
@@ -34282,7 +34272,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 45.72) (xy 81.28 44.45)
+			(xy 85.09 45.72) (xy 85.09 44.45)
 		)
 		(stroke
 			(width 0)
@@ -34322,7 +34312,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 152.4) (xy 149.86 152.4)
+			(xy 133.35 198.12) (xy 149.86 198.12)
 		)
 		(stroke
 			(width 0)
@@ -34349,6 +34339,16 @@
 			(type default)
 		)
 		(uuid "ea430005-85b6-43f7-9827-6f864ddc8d4e")
+	)
+	(wire
+		(pts
+			(xy 336.55 80.01) (xy 351.79 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb19ad3d-c24b-42b8-8758-5975ec8513e5")
 	)
 	(wire
 		(pts
@@ -34402,6 +34402,16 @@
 	)
 	(wire
 		(pts
+			(xy 367.03 95.25) (xy 382.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed0ca8ba-141a-4367-893f-043dfa059537")
+	)
+	(wire
+		(pts
 			(xy 185.42 113.03) (xy 199.39 113.03)
 		)
 		(stroke
@@ -34422,7 +34432,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 167.64) (xy 149.86 167.64)
+			(xy 133.35 185.42) (xy 149.86 185.42)
 		)
 		(stroke
 			(width 0)
@@ -34472,7 +34482,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 162.56) (xy 149.86 162.56)
+			(xy 133.35 190.5) (xy 149.86 190.5)
 		)
 		(stroke
 			(width 0)
@@ -34562,7 +34572,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 41.91) (xy 81.28 44.45)
+			(xy 85.09 41.91) (xy 85.09 44.45)
 		)
 		(stroke
 			(width 0)
@@ -34752,7 +34762,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 36.83) (xy 66.04 36.83)
+			(xy 77.47 36.83) (xy 66.04 36.83)
 		)
 		(stroke
 			(width 0)
@@ -34819,16 +34829,6 @@
 			(type default)
 		)
 		(uuid "feb33fea-ad56-4f6c-8131-dd22f7c4e8ed")
-	)
-	(wire
-		(pts
-			(xy 321.31 54.61) (xy 336.55 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff3b32c6-e199-4e6c-b181-e39a5f2844b5")
 	)
 	(wire
 		(pts
@@ -35019,7 +35019,7 @@
 	)
 	(text "+3V3 for left hand\nGND for right hand"
 		(exclude_from_sim no)
-		(at 160.782 213.614 0)
+		(at 177.292 175.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35223,7 +35223,7 @@
 		(uuid "d5ba7d5a-2bef-4615-ab30-bdde025aab52")
 	)
 	(label "VBUS_PRESENCE"
-		(at 149.86 139.7 180)
+		(at 149.86 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35273,7 +35273,7 @@
 		(uuid "08e09da6-6364-4945-8769-dc376d1737f2")
 	)
 	(label "ENC_B"
-		(at 149.86 177.8 180)
+		(at 149.86 175.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35303,7 +35303,7 @@
 		(uuid "10d58de0-024d-4c75-8cae-4694ad6c39fb")
 	)
 	(label "COL1"
-		(at 149.86 147.32 180)
+		(at 149.86 205.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35353,7 +35353,7 @@
 		(uuid "17f3786f-9f4b-43e7-a0ce-52ea7248f617")
 	)
 	(label "ROW2"
-		(at 149.86 165.1 180)
+		(at 149.86 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35393,7 +35393,7 @@
 		(uuid "2d474e13-4b89-4dd6-b367-2639f458d13d")
 	)
 	(label "ROW3"
-		(at 149.86 167.64 180)
+		(at 149.86 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35543,7 +35543,7 @@
 		(uuid "431c1199-1772-4b13-90f9-c577c51298c0")
 	)
 	(label "ENC_SW"
-		(at 149.86 172.72 180)
+		(at 149.86 170.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35593,7 +35593,7 @@
 		(uuid "534e3cab-aa2b-4843-a444-05e50b662f07")
 	)
 	(label "COL2"
-		(at 149.86 149.86 180)
+		(at 149.86 200.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35703,7 +35703,7 @@
 		(uuid "6f81d926-c1f8-4c1a-9fa9-7e61b3e8e54e")
 	)
 	(label "COL5"
-		(at 149.86 157.48 180)
+		(at 149.86 193.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35713,7 +35713,7 @@
 		(uuid "729d2f26-cda9-4d42-b34b-fbf19b51727b")
 	)
 	(label "ENC_A"
-		(at 149.86 175.26 180)
+		(at 149.86 172.72 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35733,7 +35733,7 @@
 		(uuid "730c348f-ba5e-46cf-8457-b92b487ca209")
 	)
 	(label "SERIAL"
-		(at 149.86 142.24 180)
+		(at 149.86 139.7 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35763,7 +35763,7 @@
 		(uuid "7ab311ff-2d26-4513-aaa2-b63cfdc56c1f")
 	)
 	(label "COL4"
-		(at 149.86 154.94 180)
+		(at 149.86 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35913,7 +35913,7 @@
 		(uuid "9dfb9259-de7d-44b2-bb10-939caf7bd816")
 	)
 	(label "COL3"
-		(at 149.86 152.4 180)
+		(at 149.86 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -35973,7 +35973,7 @@
 		(uuid "b0ea6f03-ff18-47f2-9b97-466831322c5f")
 	)
 	(label "ROW0"
-		(at 149.86 160.02 180)
+		(at 149.86 210.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36043,7 +36043,7 @@
 		(uuid "c66648d8-9a7c-4432-9a7b-858bc880dbbe")
 	)
 	(label "LED"
-		(at 149.86 137.16 180)
+		(at 149.86 213.36 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36153,7 +36153,7 @@
 		(uuid "e018dad9-eb3e-4f9f-9742-22553952e9d9")
 	)
 	(label "ROW4"
-		(at 149.86 170.18 180)
+		(at 149.86 182.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36263,7 +36263,7 @@
 		(uuid "f9ebed74-b547-4861-a452-075422ba791d")
 	)
 	(label "COL0"
-		(at 149.86 144.78 180)
+		(at 149.86 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36283,7 +36283,7 @@
 		(uuid "fb7ce660-1da6-48ce-a6a8-41869880c34e")
 	)
 	(label "ROW1"
-		(at 149.86 162.56 180)
+		(at 149.86 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -36301,6 +36301,52 @@
 			(justify right bottom)
 		)
 		(uuid "fe8508dc-ff08-498c-ad74-dadebefdb6c4")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 71.12 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "81e05b17-3f8f-459d-a09f-92da37b32ed3")
+		(property "Netclass" "USB Data"
+			(at 71.8185 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 71.12 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e72d07c4-94dd-41f5-a71b-4c630b8042f8")
+		(property "Netclass" "USB Data"
+			(at 71.8185 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -36632,7 +36678,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 351.79 87.63 0)
+		(at 306.07 87.63 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -36641,7 +36687,7 @@
 		(fields_autoplaced yes)
 		(uuid "036cd7b7-97fd-41d9-bdf5-5967c55f7e77")
 		(property "Reference" "SW17"
-			(at 351.79 80.01 0)
+			(at 306.07 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36649,7 +36695,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 351.79 82.55 0)
+			(at 306.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36657,7 +36703,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 351.79 87.63 0)
+			(at 306.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36666,7 +36712,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 87.63 0)
+			(at 306.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36675,7 +36721,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 351.79 87.63 0)
+			(at 306.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36684,7 +36730,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 351.79 87.63 0)
+			(at 306.07 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37517,7 +37563,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 306.07 128.27 0)
+		(at 351.79 128.27 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37526,7 +37572,7 @@
 		(fields_autoplaced yes)
 		(uuid "087cb2be-f6a7-480d-af19-208502d80f0a")
 		(property "Reference" "SW26"
-			(at 306.07 120.65 0)
+			(at 351.79 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37534,7 +37580,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 306.07 123.19 0)
+			(at 351.79 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37542,7 +37588,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 306.07 128.27 0)
+			(at 351.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37551,7 +37597,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 306.07 128.27 0)
+			(at 351.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37560,7 +37606,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 306.07 128.27 0)
+			(at 351.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37569,7 +37615,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 306.07 128.27 0)
+			(at 351.79 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38402,7 +38448,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 336.55 128.27 0)
+		(at 321.31 128.27 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38411,7 +38457,7 @@
 		(fields_autoplaced yes)
 		(uuid "0ebb8c18-9b10-4ce2-8dc3-49fd429fb0bf")
 		(property "Reference" "SW28"
-			(at 336.55 120.65 0)
+			(at 321.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38419,7 +38465,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 336.55 123.19 0)
+			(at 321.31 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38427,7 +38473,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 336.55 128.27 0)
+			(at 321.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38436,7 +38482,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 128.27 0)
+			(at 321.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38445,7 +38491,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 336.55 128.27 0)
+			(at 321.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38454,7 +38500,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 336.55 128.27 0)
+			(at 321.31 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38675,6 +38721,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Memory_Flash:W25Q128JVS")
+		(at 196.85 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "102e0926-79b7-48fe-ab51-3ca52d45ad39")
+		(property "Reference" "U2"
+			(at 205.74 194.3099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVS"
+			(at 205.74 196.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+			(at 196.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 196.85 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+			(at 196.85 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C97521"
+			(at 196.85 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "ae97e8b8-3b07-432c-857f-6f9e3e0830bc")
+		)
+		(pin "8"
+			(uuid "746727fa-1973-4f06-8a69-7c3f1ffb0f4f")
+		)
+		(pin "6"
+			(uuid "62baea30-5961-4fb8-8dc4-c0d4c03a5e92")
+		)
+		(pin "3"
+			(uuid "e9bfc473-bdc4-41c2-8462-6ebb5149eb4a")
+		)
+		(pin "4"
+			(uuid "d1892449-7450-41ab-b921-0ef10b9692ab")
+		)
+		(pin "2"
+			(uuid "dc1b8aa3-230a-4f27-95d7-7b0cf8e8cc49")
+		)
+		(pin "5"
+			(uuid "85fed8bb-bfec-4ccc-8504-7ff854ca5335")
+		)
+		(pin "1"
+			(uuid "bdbe10d5-60f1-4264-83ec-6c01b17078d8")
+		)
+		(instances
+			(project ""
+				(path "/c27e6219-942d-4ad4-b4df-18894276b69d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
 		(at 367.03 306.07 0)
 		(mirror y)
@@ -38765,7 +38908,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 367.03 87.63 0)
+		(at 290.83 87.63 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38774,7 +38917,7 @@
 		(fields_autoplaced yes)
 		(uuid "1097921d-56d7-4370-ad05-66d8f8eb8d64")
 		(property "Reference" "SW18"
-			(at 367.03 80.01 0)
+			(at 290.83 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38782,7 +38925,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 367.03 82.55 0)
+			(at 290.83 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38790,7 +38933,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 367.03 87.63 0)
+			(at 290.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38799,7 +38942,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 367.03 87.63 0)
+			(at 290.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38808,7 +38951,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 367.03 87.63 0)
+			(at 290.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38817,7 +38960,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 367.03 87.63 0)
+			(at 290.83 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39009,7 +39152,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 351.79 128.27 0)
+		(at 306.07 128.27 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39018,7 +39161,7 @@
 		(fields_autoplaced yes)
 		(uuid "119ecaf5-edf9-4f6e-b589-50bbcfbc1861")
 		(property "Reference" "SW29"
-			(at 351.79 120.65 0)
+			(at 306.07 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39026,7 +39169,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 351.79 123.19 0)
+			(at 306.07 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39034,7 +39177,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 351.79 128.27 0)
+			(at 306.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39043,7 +39186,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 128.27 0)
+			(at 306.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39052,7 +39195,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 351.79 128.27 0)
+			(at 306.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39061,7 +39204,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 351.79 128.27 0)
+			(at 306.07 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39978,7 +40121,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 306.07 46.99 0)
+		(at 351.79 46.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39987,7 +40130,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e355929-3d48-4caa-abd9-cfd0422403a5")
 		(property "Reference" "SW2"
-			(at 318.77 42.0368 0)
+			(at 364.49 42.0368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39995,7 +40138,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 318.77 44.5768 0)
+			(at 364.49 44.5768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40003,7 +40146,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 306.07 46.99 0)
+			(at 351.79 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40012,7 +40155,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 306.07 46.99 0)
+			(at 351.79 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40021,7 +40164,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 306.07 46.99 0)
+			(at 351.79 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40030,7 +40173,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 306.07 46.99 0)
+			(at 351.79 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41735,7 +41878,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 367.03 128.27 0)
+		(at 290.83 128.27 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41744,7 +41887,7 @@
 		(fields_autoplaced yes)
 		(uuid "2dd49f1d-a311-439e-a90c-d1fe5b65ead5")
 		(property "Reference" "SW30"
-			(at 367.03 120.65 0)
+			(at 290.83 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41752,7 +41895,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 367.03 123.19 0)
+			(at 290.83 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41760,7 +41903,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 367.03 128.27 0)
+			(at 290.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41769,7 +41912,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 367.03 128.27 0)
+			(at 290.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41778,7 +41921,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 367.03 128.27 0)
+			(at 290.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41787,7 +41930,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 367.03 128.27 0)
+			(at 290.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42220,7 +42363,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 321.31 87.63 0)
+		(at 336.55 87.63 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42229,7 +42372,7 @@
 		(fields_autoplaced yes)
 		(uuid "34c283cc-f92a-428b-9baa-6420e097afd6")
 		(property "Reference" "SW15"
-			(at 321.31 80.01 0)
+			(at 336.55 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42237,7 +42380,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 321.31 82.55 0)
+			(at 336.55 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42245,7 +42388,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 321.31 87.63 0)
+			(at 336.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42254,7 +42397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 321.31 87.63 0)
+			(at 336.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42263,7 +42406,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 321.31 87.63 0)
+			(at 336.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42272,7 +42415,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 321.31 87.63 0)
+			(at 336.55 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42854,7 +42997,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 321.31 128.27 0)
+		(at 336.55 128.27 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42863,7 +43006,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c8502f6-df7f-43b9-822a-1d18e2b38f7f")
 		(property "Reference" "SW27"
-			(at 321.31 120.65 0)
+			(at 336.55 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42871,7 +43014,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 321.31 123.19 0)
+			(at 336.55 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42879,7 +43022,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 321.31 128.27 0)
+			(at 336.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42888,7 +43031,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 321.31 128.27 0)
+			(at 336.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42897,7 +43040,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 321.31 128.27 0)
+			(at 336.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42906,7 +43049,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 321.31 128.27 0)
+			(at 336.55 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43213,7 +43356,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 290.83 87.63 0)
+		(at 367.03 87.63 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43222,7 +43365,7 @@
 		(fields_autoplaced yes)
 		(uuid "3dfed511-cc9f-450a-ac43-cba1e7277686")
 		(property "Reference" "SW13"
-			(at 290.83 80.01 0)
+			(at 367.03 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43230,7 +43373,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 290.83 82.55 0)
+			(at 367.03 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43238,7 +43381,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 290.83 87.63 0)
+			(at 367.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43247,7 +43390,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 290.83 87.63 0)
+			(at 367.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43256,7 +43399,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 290.83 87.63 0)
+			(at 367.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43265,7 +43408,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 290.83 87.63 0)
+			(at 367.03 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45220,7 +45363,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 336.55 87.63 0)
+		(at 321.31 87.63 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45229,7 +45372,7 @@
 		(fields_autoplaced yes)
 		(uuid "4c8b1117-d7b5-4646-8522-67fae4eb6f1c")
 		(property "Reference" "SW16"
-			(at 336.55 80.01 0)
+			(at 321.31 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45237,7 +45380,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 336.55 82.55 0)
+			(at 321.31 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45245,7 +45388,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 336.55 87.63 0)
+			(at 321.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45254,7 +45397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 87.63 0)
+			(at 321.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45263,7 +45406,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 336.55 87.63 0)
+			(at 321.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45272,7 +45415,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 336.55 87.63 0)
+			(at 321.31 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45530,7 +45673,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 351.79 46.99 0)
+		(at 306.07 46.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45539,7 +45682,7 @@
 		(fields_autoplaced yes)
 		(uuid "4db1d7e3-b0c5-4c17-890d-72ee8518d84f")
 		(property "Reference" "SW5"
-			(at 351.79 39.37 0)
+			(at 306.07 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45547,7 +45690,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 351.79 41.91 0)
+			(at 306.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45555,7 +45698,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 351.79 46.99 0)
+			(at 306.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45564,7 +45707,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 351.79 46.99 0)
+			(at 306.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45573,7 +45716,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 351.79 46.99 0)
+			(at 306.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45582,7 +45725,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 351.79 46.99 0)
+			(at 306.07 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46098,7 +46241,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 336.55 46.99 0)
+		(at 321.31 46.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46107,7 +46250,7 @@
 		(fields_autoplaced yes)
 		(uuid "548aeb24-b87a-4595-a4d4-3377d6e532c4")
 		(property "Reference" "SW4"
-			(at 336.55 39.37 0)
+			(at 321.31 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46115,7 +46258,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 336.55 41.91 0)
+			(at 321.31 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46123,7 +46266,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 336.55 46.99 0)
+			(at 321.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46132,7 +46275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 336.55 46.99 0)
+			(at 321.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46141,7 +46284,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 336.55 46.99 0)
+			(at 321.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46150,7 +46293,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 336.55 46.99 0)
+			(at 321.31 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48319,7 +48462,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 140.97 213.36 90)
+		(at 157.48 167.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48328,7 +48471,7 @@
 		(fields_autoplaced yes)
 		(uuid "67a36299-51d4-4b4a-b379-3742f4a2f25f")
 		(property "Reference" "R2"
-			(at 140.97 207.01 90)
+			(at 157.48 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48336,7 +48479,7 @@
 			)
 		)
 		(property "Value" "5.1kΩ"
-			(at 140.97 209.55 90)
+			(at 157.48 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48344,7 +48487,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 140.97 215.138 90)
+			(at 157.48 169.418 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48353,7 +48496,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 140.97 213.36 0)
+			(at 157.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48362,7 +48505,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 140.97 213.36 0)
+			(at 157.48 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48371,7 +48514,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 140.97 213.36 90)
+			(at 157.48 167.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48901,103 +49044,6 @@
 			(project ""
 				(path "/c27e6219-942d-4ad4-b4df-18894276b69d"
 					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Memory_Flash:W25Q128JVP")
-		(at 196.85 434.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6ca4bd3f-152d-4d71-9e03-adf9a66ccef4")
-		(property "Reference" "U102"
-			(at 205.74 433.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVP"
-			(at 205.74 435.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
-			(at 196.85 411.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 196.85 408.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, WSON-8"
-			(at 196.85 406.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C190862"
-			(at 196.85 434.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2340046-9d1e-473f-956c-c7f24b6d7aba")
-		)
-		(pin "6"
-			(uuid "fa64cf3b-1531-4f58-b1e9-9ee6faae0aeb")
-		)
-		(pin "4"
-			(uuid "47bab7d3-2b5b-47ed-9c66-4bc4316f23be")
-		)
-		(pin "3"
-			(uuid "874e1d0f-b190-409f-ab99-59a5d5255a15")
-		)
-		(pin "2"
-			(uuid "df18d045-8052-45c9-a526-0afda7545051")
-		)
-		(pin "5"
-			(uuid "dc4cebbb-c840-4117-b77f-5f1dfd83c721")
-		)
-		(pin "7"
-			(uuid "595fa6dd-b485-463a-8961-e299397c290b")
-		)
-		(pin "8"
-			(uuid "f323e72e-5666-4591-a5b3-021277d6d7ac")
-		)
-		(instances
-			(project "GDEK"
-				(path "/c27e6219-942d-4ad4-b4df-18894276b69d"
-					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -50513,7 +50559,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 41.91 90)
+		(at 81.28 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50521,7 +50567,7 @@
 		(dnp no)
 		(uuid "795fba89-8ab7-4fec-8bc1-46cbeb3f136a")
 		(property "Reference" "R8"
-			(at 77.47 39.624 90)
+			(at 81.28 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50529,7 +50575,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 77.47 41.91 90)
+			(at 81.28 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50537,7 +50583,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 77.47 43.688 90)
+			(at 81.28 43.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50546,7 +50592,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 41.91 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50555,7 +50601,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 41.91 0)
+			(at 81.28 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50564,7 +50610,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 77.47 41.91 90)
+			(at 81.28 41.91 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52225,7 +52271,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 290.83 46.99 0)
+		(at 367.03 46.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52234,7 +52280,7 @@
 		(fields_autoplaced yes)
 		(uuid "86b1a32d-e0c6-492a-a735-c47e02e3e342")
 		(property "Reference" "SW1"
-			(at 290.83 39.37 0)
+			(at 367.03 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52242,7 +52288,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 290.83 41.91 0)
+			(at 367.03 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52250,7 +52296,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 290.83 46.99 0)
+			(at 367.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52259,7 +52305,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 290.83 46.99 0)
+			(at 367.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52268,7 +52314,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 290.83 46.99 0)
+			(at 367.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52277,7 +52323,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 290.83 46.99 0)
+			(at 367.03 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56046,7 +56092,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 148.59 213.36 0)
+		(at 165.1 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56055,7 +56101,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3f7462a-61ce-4c7c-a323-ec7acae0e6a6")
 		(property "Reference" "#PWR024"
-			(at 148.59 217.17 0)
+			(at 165.1 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56064,7 +56110,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 148.59 208.28 0)
+			(at 165.1 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56072,7 +56118,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 213.36 0)
+			(at 165.1 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56081,7 +56127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 213.36 0)
+			(at 165.1 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56090,7 +56136,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 148.59 213.36 0)
+			(at 165.1 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57451,7 +57497,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 367.03 46.99 0)
+		(at 290.83 46.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -57460,7 +57506,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8caa967-c12a-4841-815b-f89988cef9dc")
 		(property "Reference" "SW6"
-			(at 367.03 39.37 0)
+			(at 290.83 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57468,7 +57514,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 367.03 41.91 0)
+			(at 290.83 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57476,7 +57522,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 367.03 46.99 0)
+			(at 290.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57485,7 +57531,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 367.03 46.99 0)
+			(at 290.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57494,7 +57540,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 367.03 46.99 0)
+			(at 290.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57503,7 +57549,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 367.03 46.99 0)
+			(at 290.83 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59614,103 +59660,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Memory_Flash:W25Q128JVP")
-		(at 196.85 195.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d289bad0-621e-4445-8b37-fff6c40910db")
-		(property "Reference" "U2"
-			(at 205.74 194.3099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "W25Q128JVP"
-			(at 205.74 196.8499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4.3mm"
-			(at 196.85 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 196.85 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, WSON-8"
-			(at 196.85 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C190862"
-			(at 196.85 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c6952e8e-c3f8-4716-8342-bb7a22169735")
-		)
-		(pin "6"
-			(uuid "4d7ce42b-333b-443f-863f-4d79909fdf70")
-		)
-		(pin "4"
-			(uuid "4b9da322-b41e-4df0-9c88-2fdf1fd0d831")
-		)
-		(pin "3"
-			(uuid "616d7384-4d2c-4b7d-b5d0-0bc6e80fedbc")
-		)
-		(pin "2"
-			(uuid "7c8dd53b-ef97-428a-aafc-2cbb014ae552")
-		)
-		(pin "5"
-			(uuid "17822b98-f1be-4148-a1b3-597c013c5acc")
-		)
-		(pin "7"
-			(uuid "e77bab3a-4531-41ec-9264-fee6de6a2f10")
-		)
-		(pin "8"
-			(uuid "7e291be9-84d3-48d1-bf31-84466f739379")
-		)
-		(instances
-			(project ""
-				(path "/c27e6219-942d-4ad4-b4df-18894276b69d"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_Small")
 		(at 323.85 186.69 180)
 		(unit 1)
@@ -59897,7 +59846,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 306.07 87.63 0)
+		(at 351.79 87.63 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59906,7 +59855,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6553b9a-1bee-4a46-9554-ea641a6dd06d")
 		(property "Reference" "SW14"
-			(at 306.07 80.01 0)
+			(at 351.79 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59914,7 +59863,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 306.07 82.55 0)
+			(at 351.79 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59922,7 +59871,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 306.07 87.63 0)
+			(at 351.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59931,7 +59880,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 306.07 87.63 0)
+			(at 351.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59940,7 +59889,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 306.07 87.63 0)
+			(at 351.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59949,7 +59898,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 306.07 87.63 0)
+			(at 351.79 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -59986,7 +59935,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 321.31 46.99 0)
+		(at 336.55 46.99 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59995,7 +59944,7 @@
 		(fields_autoplaced yes)
 		(uuid "d66efe3b-ea7a-4d29-a4d4-feb84ab1b91f")
 		(property "Reference" "SW3"
-			(at 321.31 39.37 0)
+			(at 336.55 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60003,7 +59952,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 321.31 41.91 0)
+			(at 336.55 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60011,7 +59960,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 321.31 46.99 0)
+			(at 336.55 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60020,7 +59969,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 321.31 46.99 0)
+			(at 336.55 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60029,7 +59978,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 321.31 46.99 0)
+			(at 336.55 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60038,7 +59987,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 321.31 46.99 0)
+			(at 336.55 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62830,7 +62779,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 45.72 0)
+		(at 85.09 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62838,7 +62787,7 @@
 		(dnp no)
 		(uuid "ed4d1efb-b4b2-4302-84c0-1a8b6352fb24")
 		(property "Reference" "#PWR012"
-			(at 81.28 52.07 0)
+			(at 85.09 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62847,7 +62796,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 49.784 0)
+			(at 85.09 49.784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62855,7 +62804,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 45.72 0)
+			(at 85.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62864,7 +62813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 45.72 0)
+			(at 85.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62873,7 +62822,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 45.72 0)
+			(at 85.09 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62895,7 +62844,7 @@
 	)
 	(symbol
 		(lib_id "Device:Polyfuse")
-		(at 77.47 36.83 90)
+		(at 81.28 36.83 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -62904,7 +62853,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee11a919-d60d-417e-a8b7-d14ba41df50a")
 		(property "Reference" "F1"
-			(at 77.47 30.48 90)
+			(at 81.28 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62912,7 +62861,7 @@
 			)
 		)
 		(property "Value" "Polyfuse"
-			(at 77.47 33.02 90)
+			(at 81.28 33.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62920,7 +62869,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 82.55 35.56 0)
+			(at 86.36 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62930,7 +62879,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 36.83 0)
+			(at 81.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62939,7 +62888,7 @@
 			)
 		)
 		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 77.47 36.83 0)
+			(at 81.28 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -62948,7 +62897,7 @@
 			)
 		)
 		(property "LCSC" "C69679"
-			(at 77.47 36.83 90)
+			(at 81.28 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63109,6 +63058,103 @@
 			(project "GDEK"
 				(path "/c27e6219-942d-4ad4-b4df-18894276b69d"
 					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Memory_Flash:W25Q128JVS")
+		(at 196.85 434.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef029b1a-860b-4d08-bf9c-af078c16738f")
+		(property "Reference" "U102"
+			(at 205.74 433.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "W25Q128JVS"
+			(at 205.74 435.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm"
+			(at 196.85 411.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
+			(at 196.85 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+			(at 196.85 406.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C97521"
+			(at 196.85 434.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "7"
+			(uuid "b8ad7e5a-8356-4246-a5fc-d52b52901dee")
+		)
+		(pin "8"
+			(uuid "f39b5ff5-6102-4b6c-afd1-69df09fdc502")
+		)
+		(pin "6"
+			(uuid "5b9b5fc5-f6c2-4a29-a808-23dea464090e")
+		)
+		(pin "3"
+			(uuid "1d121f89-87df-4403-8b50-ee03b78bc352")
+		)
+		(pin "4"
+			(uuid "8b9aa40a-f751-48ef-9f65-1ce4c5e5cdab")
+		)
+		(pin "2"
+			(uuid "159b63ac-e2ee-4edd-9d94-21eaeb0c51f1")
+		)
+		(pin "5"
+			(uuid "57b986d4-21f1-41bd-9833-eee8d778e357")
+		)
+		(pin "1"
+			(uuid "91b30965-4925-494b-9c28-c9f7bf561536")
+		)
+		(instances
+			(project "GDEK"
+				(path "/c27e6219-942d-4ad4-b4df-18894276b69d"
+					(reference "U102")
 					(unit 1)
 				)
 			)
@@ -64527,7 +64573,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 77.47 44.45 270)
+		(at 81.28 44.45 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -64535,7 +64581,7 @@
 		(dnp no)
 		(uuid "f57822ef-8ac0-4c95-a036-0c292c9b9060")
 		(property "Reference" "R9"
-			(at 77.47 46.736 90)
+			(at 81.28 46.736 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64543,7 +64589,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 77.47 44.45 90)
+			(at 81.28 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64551,7 +64597,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 77.47 42.672 90)
+			(at 81.28 42.672 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64560,7 +64606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 77.47 44.45 0)
+			(at 81.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64569,7 +64615,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 77.47 44.45 0)
+			(at 81.28 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -64578,7 +64624,7 @@
 			)
 		)
 		(property "LCSC" "C25905"
-			(at 77.47 44.45 90)
+			(at 81.28 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65019,7 +65065,7 @@
 	)
 	(symbol
 		(lib_id "GDEK:SW+SK6812MINIE")
-		(at 290.83 128.27 0)
+		(at 367.03 128.27 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -65028,7 +65074,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8ae9bcb-9391-43b4-aed6-05f37f9d547d")
 		(property "Reference" "SW25"
-			(at 290.83 120.65 0)
+			(at 367.03 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65036,7 +65082,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI"
-			(at 290.83 123.19 0)
+			(at 367.03 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65044,7 +65090,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:MX+KailhChoc+GateronKS+SK6812MINI-E_Tight"
-			(at 290.83 128.27 0)
+			(at 367.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65053,7 +65099,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 290.83 128.27 0)
+			(at 367.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65062,7 +65108,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 290.83 128.27 0)
+			(at 367.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -65071,7 +65117,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 290.83 128.27 0)
+			(at 367.03 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
