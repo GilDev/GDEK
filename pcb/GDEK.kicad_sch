@@ -7350,12 +7350,6 @@
 		(uuid "13c643ff-865a-4bc2-a147-0a54266499ff")
 	)
 	(junction
-		(at 386.08 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "143bf2bd-38b7-403d-b5ca-58057702e1a8")
-	)
-	(junction
 		(at 332.74 420.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7636,6 +7630,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "326ca461-8728-4b86-a01f-9b1665f9a207")
+	)
+	(junction
+		(at 386.08 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "328b8ac8-b27d-4716-9bc8-320bdf2a1e86")
 	)
 	(junction
 		(at 233.68 86.36)
@@ -8664,12 +8664,6 @@
 		(uuid "9e089d06-6296-4c8c-adec-cd29808133d1")
 	)
 	(junction
-		(at 309.88 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e09504c-57be-400a-ba3c-c42fb3e7300f")
-	)
-	(junction
 		(at 325.12 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8704,6 +8698,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a30bf81e-bee9-44b2-bd16-3d7607e0ff94")
+	)
+	(junction
+		(at 309.88 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3478f15-4b4c-4b2a-a181-6a1ecc3466bb")
 	)
 	(junction
 		(at 137.16 276.86)
@@ -13529,6 +13529,16 @@
 	)
 	(wire
 		(pts
+			(xy 386.08 134.62) (xy 398.78 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2e61d8-56a7-4d66-81e1-79a80ceb0bcf")
+	)
+	(wire
+		(pts
 			(xy 307.34 194.31) (xy 307.34 207.01)
 		)
 		(stroke
@@ -14356,16 +14366,6 @@
 			(type default)
 		)
 		(uuid "aa14930b-17c0-4877-b35c-c6097539070c")
-	)
-	(wire
-		(pts
-			(xy 386.08 134.62) (xy 398.78 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa26d476-4528-4aac-bfe2-abb7672e8f49")
 	)
 	(wire
 		(pts
@@ -15279,6 +15279,16 @@
 	)
 	(wire
 		(pts
+			(xy 309.88 119.38) (xy 325.12 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caed0be8-70ab-4891-b4cf-922fa7f33d7e")
+	)
+	(wire
+		(pts
 			(xy 304.8 189.23) (xy 317.5 189.23)
 		)
 		(stroke
@@ -15896,16 +15906,6 @@
 			(type default)
 		)
 		(uuid "e26a211e-0f5a-44d5-a4a6-9aac7a89c23f")
-	)
-	(wire
-		(pts
-			(xy 309.88 119.38) (xy 325.12 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e30a3155-c6c0-4b7d-8d82-b3d0a3e8cf84")
 	)
 	(wire
 		(pts
@@ -21660,7 +21660,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 355.6 127 0)
+		(at 370.84 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21669,7 +21669,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c1881b9-284c-481e-b1ff-2aa1bfb71e24")
 		(property "Reference" "LD27"
-			(at 365.76 120.5798 0)
+			(at 381 120.5798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21677,7 +21677,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 365.76 123.1198 0)
+			(at 381 123.1198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21685,7 +21685,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:SK6812MINIE"
-			(at 356.87 134.62 0)
+			(at 372.11 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21695,7 +21695,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 358.14 136.525 0)
+			(at 373.38 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21705,7 +21705,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 355.6 127 0)
+			(at 370.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21714,7 +21714,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 355.6 127 0)
+			(at 370.84 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24739,7 +24739,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 340.36 127 0)
+		(at 355.6 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24748,7 +24748,7 @@
 		(fields_autoplaced yes)
 		(uuid "378129f7-a632-497a-8e69-3cef5f7d24bf")
 		(property "Reference" "LD28"
-			(at 350.52 120.5798 0)
+			(at 365.76 120.5798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24756,7 +24756,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 350.52 123.1198 0)
+			(at 365.76 123.1198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24764,7 +24764,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:SK6812MINIE"
-			(at 341.63 134.62 0)
+			(at 356.87 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24774,7 +24774,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 342.9 136.525 0)
+			(at 358.14 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24784,7 +24784,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 340.36 127 0)
+			(at 355.6 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24793,7 +24793,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 340.36 127 0)
+			(at 355.6 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42092,7 +42092,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 370.84 127 0)
+		(at 386.08 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42101,7 +42101,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbdf475c-c136-40ba-96ce-bacccafb8f31")
 		(property "Reference" "LD26"
-			(at 381 120.5798 0)
+			(at 396.24 120.5798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42109,7 +42109,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 381 123.1198 0)
+			(at 396.24 123.1198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42117,7 +42117,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:SK6812MINIE"
-			(at 372.11 134.62 0)
+			(at 387.35 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42127,7 +42127,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 373.38 136.525 0)
+			(at 388.62 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42137,7 +42137,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 370.84 127 0)
+			(at 386.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42146,7 +42146,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 370.84 127 0)
+			(at 386.08 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43302,7 +43302,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 386.08 127 0)
+		(at 309.88 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43311,7 +43311,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9ced3fe-0507-4123-81a5-b4e6603b48ed")
 		(property "Reference" "LD25"
-			(at 396.24 120.5798 0)
+			(at 320.04 120.5798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43319,7 +43319,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 396.24 123.1198 0)
+			(at 320.04 123.1198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43327,7 +43327,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:SK6812MINIE"
-			(at 387.35 134.62 0)
+			(at 311.15 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43337,7 +43337,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 388.62 136.525 0)
+			(at 312.42 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43347,7 +43347,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 386.08 127 0)
+			(at 309.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43356,7 +43356,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 386.08 127 0)
+			(at 309.88 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45500,7 +45500,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 309.88 127 0)
+		(at 325.12 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45509,7 +45509,7 @@
 		(fields_autoplaced yes)
 		(uuid "df2ddd13-02f2-4503-aa58-7bdf6cbf2806")
 		(property "Reference" "LD30"
-			(at 320.04 120.5798 0)
+			(at 335.28 120.5798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45517,7 +45517,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 320.04 123.1198 0)
+			(at 335.28 123.1198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45525,7 +45525,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:SK6812MINIE"
-			(at 311.15 134.62 0)
+			(at 326.39 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45535,7 +45535,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 312.42 136.525 0)
+			(at 327.66 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45545,7 +45545,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 309.88 127 0)
+			(at 325.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45554,7 +45554,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 309.88 127 0)
+			(at 325.12 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50389,7 +50389,7 @@
 	)
 	(symbol
 		(lib_id "LED:SK6812")
-		(at 325.12 127 0)
+		(at 340.36 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50398,7 +50398,7 @@
 		(fields_autoplaced yes)
 		(uuid "fad1b3d4-e8de-4219-911a-73b50e70ce94")
 		(property "Reference" "LD29"
-			(at 335.28 120.5798 0)
+			(at 350.52 120.5798 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50406,7 +50406,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 335.28 123.1198 0)
+			(at 350.52 123.1198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50414,7 +50414,7 @@
 			)
 		)
 		(property "Footprint" "GDEK:SK6812MINIE"
-			(at 326.39 134.62 0)
+			(at 341.63 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50424,7 +50424,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 327.66 136.525 0)
+			(at 342.9 136.525 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50434,7 +50434,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 325.12 127 0)
+			(at 340.36 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50443,7 +50443,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 325.12 127 0)
+			(at 340.36 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
