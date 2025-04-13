@@ -7,6 +7,7 @@
 		(at 0 -8.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "9633f7d7-04f8-454e-8f2c-1d0fa756d116")
 		(effects
 			(font
@@ -72,6 +73,17 @@
 		)
 		(layer "Dwgs.User")
 		(uuid "5df6d78f-6091-4100-9fd6-2f3735ae6dce")
+	)
+	(fp_rect
+		(start -7.75 -7.75)
+		(end 7.75 7.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ac8baa29-69a0-46c6-97e2-e69366cb0d8d")
 	)
 	(fp_circle
 		(center 0 4.75)
@@ -356,19 +368,6 @@
 		(fill no)
 		(layer "User.2")
 		(uuid "95d2097a-c991-4470-baaa-dbb8d602c5df")
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 8.5 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "635beafc-7527-47c2-a221-661074d6fa96")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
 	)
 	(pad "" np_thru_hole oval
 		(at -5.29 0 180)

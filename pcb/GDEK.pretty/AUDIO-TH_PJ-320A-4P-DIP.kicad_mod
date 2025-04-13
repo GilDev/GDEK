@@ -1,7 +1,7 @@
 (footprint "AUDIO-TH_PJ-320A-4P-DIP"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -6.3 0)
@@ -21,18 +21,6 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "273761c9-222e-4d5a-aae2-d66828a13695")
-		(effects
-			(font
-				(size 1.27 1.27)
 				(thickness 0.15)
 			)
 		)
@@ -69,17 +57,17 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "4a9dfa04-4d3f-4ea1-a1bf-dd6af7f161b9")
 	)
 	(fp_line
 		(start -9.23 -2.5)
-		(end -7.23 -2.5)
+		(end -7.25 -2.5)
 		(stroke
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "86da9800-8f49-437b-94ec-93bd3cc012fa")
 	)
 	(fp_line
@@ -89,7 +77,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "3d1e26ac-c9e0-47d5-bd91-807d287fa040")
 	)
 	(fp_line
@@ -99,7 +87,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "aca9051a-4ce5-439c-b177-b9682dccdaef")
 	)
 	(fp_line
@@ -109,7 +97,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "5356f546-aaa9-4a67-aaf0-1dbd48aeac5d")
 	)
 	(fp_line
@@ -119,7 +107,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "3cf8dd19-df53-44af-97d0-6e7bcc0f5d44")
 	)
 	(fp_line
@@ -129,7 +117,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "8d9ac78b-725b-4c45-bb26-0fe8e07f2914")
 	)
 	(fp_line
@@ -139,7 +127,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "d6a9acdc-8f4f-4a7e-8c78-2bb78ffbbabe")
 	)
 	(fp_line
@@ -149,7 +137,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "7c8ddef7-f584-4bb4-a721-16345546b7ac")
 	)
 	(fp_line
@@ -159,18 +147,8 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "15aed69d-8749-4a30-949a-cc65d42133e3")
-	)
-	(fp_line
-		(start 4.87 2.74)
-		(end 4.87 2.85)
-		(stroke
-			(width 0.25)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "4136ebda-c903-4a44-9c1c-0151d3991349")
 	)
 	(fp_line
 		(start 4.87 3.1)
@@ -179,7 +157,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "df6f8596-3f61-4b0a-ac20-1947c40eb7c2")
 	)
 	(fp_line
@@ -189,7 +167,7 @@
 			(width 0.25)
 			(type solid)
 		)
-		(layer "F.SilkS")
+		(layer "Dwgs.User")
 		(uuid "2ebdb2c5-4e60-4a9f-85e6-cc93ae036b6e")
 	)
 	(fp_circle
@@ -199,7 +177,7 @@
 			(width 0.38)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "cd0f3606-0c43-4651-9641-d93504fc6fdf")
 	)
@@ -210,9 +188,20 @@
 			(width 0.38)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "74d7c28c-800a-4411-83f9-f8245cbdcf63")
+	)
+	(fp_rect
+		(start -9.5 -3.3)
+		(end 5.35 3.45)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5ae05c78-2808-4099-b7a3-8e454cf59eb4")
 	)
 	(fp_circle
 		(center 4.87 3.05)
@@ -221,7 +210,7 @@
 			(width 0.06)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "ebd28795-d332-483c-9fc5-1e896abac06b")
 	)
@@ -236,20 +225,18 @@
 			)
 		)
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at -5.65 0)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "cc0e1df0-8a11-4c27-bfee-52d4eb63bdba")
 	)
-	(pad "" thru_hole circle
+	(pad "" np_thru_hole circle
 		(at 1.35 0)
 		(size 1.2 1.2)
 		(drill 1.2)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
+		(layers "F&B.Cu" "*.Mask")
 		(uuid "862ddb7a-de97-4078-a9c3-ec695f7f19c4")
 	)
 	(pad "R1" thru_hole oval
@@ -284,6 +271,7 @@
 		(remove_unused_layers no)
 		(uuid "4979aaeb-ed71-46ee-a8eb-1f17f6b71d91")
 	)
+	(embedded_fonts no)
 	(model "/GDEK.3dshapes/AUDIO-TH_PJ-320A-4P-DIP.wrl"
 		(offset
 			(xyz -2.18 -0 2.5)
