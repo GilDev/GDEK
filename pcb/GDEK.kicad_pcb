@@ -41134,7 +41134,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "124c65bb-ed37-4afc-829c-ac2e38e1d3e3")
-		(at 211.75 89 180)
+		(at 210.5 89.75 180)
 		(property "Reference" "LD123"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -46675,7 +46675,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "2ac18cc1-9403-4d00-af73-c0625c29ea0f")
-		(at 267.5 81.75 180)
+		(at 267.5 81.75)
 		(property "Reference" "LD114"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -46702,7 +46702,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -46716,7 +46716,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -46730,7 +46730,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -46784,16 +46784,6 @@
 			(uuid "5eedfd9d-b8e6-4122-bf96-b5ca62e504ba")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "cfdefb07-b8c1-498f-b6b1-65cb9d562e7f")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -46804,24 +46794,24 @@
 			(uuid "f775cdbe-267f-4575-982e-1fc922ad858d")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "dc0cee6f-7a54-4e4e-9dbd-10344efbf772")
+			(layer "Dwgs.User")
+			(uuid "cfdefb07-b8c1-498f-b6b1-65cb9d562e7f")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "11b6a7a5-a26c-4578-bb37-22ae85807b1e")
+			(uuid "13964bba-fde8-41d2-b8d1-53fa10b8bb61")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -46834,36 +46824,35 @@
 			(uuid "e80ed15a-8578-430d-b01f-b7cf11eacccc")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "13964bba-fde8-41d2-b8d1-53fa10b8bb61")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "1ddf88b3-0c60-4118-abf2-98cc74a93f53")
+			(uuid "11b6a7a5-a26c-4578-bb37-22ae85807b1e")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "17fbcf4d-ab05-4b97-83c2-4c9eb0108e80")
+			(uuid "dc0cee6f-7a54-4e4e-9dbd-10344efbf772")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "99fb4016-1751-44e6-8de5-b99c4c5b2fb2")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -46877,15 +46866,26 @@
 			(uuid "953d0611-ff59-47a1-9b0f-72ecda842c16")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "99fb4016-1751-44e6-8de5-b99c4c5b2fb2")
+			(uuid "17fbcf4d-ab05-4b97-83c2-4c9eb0108e80")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1ddf88b3-0c60-4118-abf2-98cc74a93f53")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -46910,7 +46910,7 @@
 			(uuid "3f79b8f5-db13-4903-8d6c-41bafee94fe9")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -46919,7 +46919,7 @@
 			(uuid "1e384ff9-1766-4fce-8d4b-94be76f78c57")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 191 "Net-(LD114-DIN)")
@@ -46929,7 +46929,7 @@
 			(uuid "8653060a-d6bd-46d5-85ae-8cc90b377934")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -46938,7 +46938,7 @@
 			(uuid "9bd78ae6-0ea4-4c30-ace8-02c2a6cd12f0")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 190 "Net-(LD113-DIN)")
@@ -52072,7 +52072,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "43674fa2-99b0-41ac-9038-ccd2fd73a4ef")
-		(at 191.5 36.25 180)
+		(at 191.5 36.25)
 		(property "Reference" "LD106"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -52099,7 +52099,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -52113,7 +52113,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -52127,7 +52127,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -52147,7 +52147,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy -1.7 -1.11) (xy -3.3 -1.11) (xy -3.7 -0.725) (xy -3.7 -0.39) (xy -1.7 -0.39)
+				(xy -1.7 -1.11) (xy -3.300001 -1.11) (xy -3.7 -0.725) (xy -3.7 -0.39) (xy -1.7 -0.39)
 			)
 			(stroke
 				(width 0.1)
@@ -52170,7 +52170,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.7 -1.11) (xy -3.3 -1.11) (xy -3.7 -0.725) (xy -3.7 -0.39) (xy -1.7 -0.39)
+				(xy -1.7 -1.11) (xy -3.300001 -1.11) (xy -3.7 -0.725) (xy -3.7 -0.39) (xy -1.7 -0.39)
 			)
 			(stroke
 				(width 0.1)
@@ -52179,16 +52179,6 @@
 			(fill yes)
 			(layer "B.Paste")
 			(uuid "c4f1a98e-fe4e-4109-ad27-6ee7585c7d3f")
-		)
-		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "590e8241-b4fe-4fa7-8716-dfb9e1b9fcc8")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -52201,24 +52191,24 @@
 			(uuid "ccdf1f2d-a70d-43a0-bbac-cc82bd2dc7da")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "152d42cb-ebdd-4723-bb0a-ffb928e47d36")
+			(layer "Dwgs.User")
+			(uuid "590e8241-b4fe-4fa7-8716-dfb9e1b9fcc8")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e930b46a-06e8-4700-aadf-c83badaa08af")
+			(uuid "ed45a82e-ff25-44b4-be46-9ba34c6a40a8")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -52231,47 +52221,24 @@
 			(uuid "cd37b411-afba-430b-8615-c2eea929d805")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "ed45a82e-ff25-44b4-be46-9ba34c6a40a8")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "5c87832e-71f9-4193-86b9-d90f1442c02a")
+			(uuid "e930b46a-06e8-4700-aadf-c83badaa08af")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "035eac80-443e-4fba-a7cc-751aa1383f7c")
-		)
-		(fp_arc
-			(start -0.7 1.5)
-			(mid -1.2 2)
-			(end -1.7 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "43bba421-dff4-4918-9048-a2d1d256c45b")
+			(uuid "152d42cb-ebdd-4723-bb0a-ffb928e47d36")
 		)
 		(fp_arc
 			(start -1.7 -1.5)
@@ -52284,9 +52251,43 @@
 			(layer "Edge.Cuts")
 			(uuid "f020f7c5-13ec-41d3-9491-c5d194e3058f")
 		)
-		(fp_rect
-			(start -4 2.25)
-			(end 4 -2.25)
+		(fp_arc
+			(start -0.7 1.5)
+			(mid -1.199999 2.000001)
+			(end -1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "43bba421-dff4-4918-9048-a2d1d256c45b")
+		)
+		(fp_arc
+			(start 0.7 -1.5)
+			(mid 1.199999 -2.000001)
+			(end 1.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "035eac80-443e-4fba-a7cc-751aa1383f7c")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5c87832e-71f9-4193-86b9-d90f1442c02a")
+		)
+		(fp_poly
+			(pts
+				(xy -3.999999 2.25) (xy 4 2.25) (xy 3.999999 -2.25) (xy -4 -2.25)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -52307,7 +52308,7 @@
 			(uuid "0ed7e94f-68c8-4639-a853-503574b8535f")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -52316,7 +52317,7 @@
 			(uuid "148ba1ce-2713-4b4f-a8b8-7aac17204ad7")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 182 "Net-(LD106-DIN)")
@@ -52326,7 +52327,7 @@
 			(uuid "7a9ce2a7-5745-459a-bec7-dad0e8e5e70a")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -52335,7 +52336,7 @@
 			(uuid "c1571cbd-8e03-4e89-af17-b1aa3bd6226d")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 181 "Net-(LD105-DIN)")
@@ -53347,7 +53348,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "4897ddc0-2a2b-4de1-be9f-d4d69601ebf0")
-		(at 286.5 81.75 180)
+		(at 286.5 81.75)
 		(property "Reference" "LD113"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -53374,7 +53375,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -53388,7 +53389,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -53402,7 +53403,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -53456,16 +53457,6 @@
 			(uuid "e3f0d55a-a923-43e9-a8e4-4fd1bd51563e")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "6282552b-483c-4b54-8ac9-b075513d4688")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -53476,24 +53467,24 @@
 			(uuid "3df754d9-c7f9-4b97-966d-2678211d368d")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "1932acae-2e6e-473b-b327-1bcd3f975a63")
+			(layer "Dwgs.User")
+			(uuid "6282552b-483c-4b54-8ac9-b075513d4688")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "07d364de-784b-42b1-bbd6-7f46ff1b170c")
+			(uuid "42edd4bb-d47d-48e2-8936-976a4dd921d7")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -53506,36 +53497,35 @@
 			(uuid "5191e71c-ded7-4616-9b59-51b7758c4e0d")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "42edd4bb-d47d-48e2-8936-976a4dd921d7")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "dfaec5e2-acf2-4b06-a610-83bf3f3a9846")
+			(uuid "07d364de-784b-42b1-bbd6-7f46ff1b170c")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "af40986e-32fe-473f-a095-5ba03e42011e")
+			(uuid "1932acae-2e6e-473b-b327-1bcd3f975a63")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "04b4a354-cd87-4b9a-bf42-5dee371f5424")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -53549,15 +53539,26 @@
 			(uuid "39430208-090c-40b9-8e75-f632f600e8de")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "04b4a354-cd87-4b9a-bf42-5dee371f5424")
+			(uuid "af40986e-32fe-473f-a095-5ba03e42011e")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "dfaec5e2-acf2-4b06-a610-83bf3f3a9846")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -53582,7 +53583,7 @@
 			(uuid "882a5621-179c-4cb6-918c-b3855b6fdfbf")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -53591,7 +53592,7 @@
 			(uuid "daa56510-e99f-428b-8c00-2bccd183534c")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 190 "Net-(LD113-DIN)")
@@ -53601,7 +53602,7 @@
 			(uuid "205f4c78-e21f-463a-aaad-32540a23ea8f")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -53610,7 +53611,7 @@
 			(uuid "becbd11d-13c8-45d9-88a1-1a6494fe5467")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 189 "Net-(LD113-DOUT)")
@@ -58288,7 +58289,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "58eb4b81-8e83-4a07-9008-7c11e23b3fbf")
-		(at 191.75 93 180)
+		(at 191.5 93.25 180)
 		(property "Reference" "LD124"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -60368,12 +60369,12 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "5db02f31-eda1-4999-a7ef-c62249de99df")
-		(at 229.5 29.25 180)
+		(at 229.5 29.25)
 		(property "Reference" "LD104"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "07e074da-563f-4eb0-bf90-b66876c39ea6")
+			(uuid "36ba6fbf-57a1-4363-b3d3-698e32f19a67")
 			(effects
 				(font
 					(size 1 1)
@@ -60385,7 +60386,7 @@
 		(property "Value" "SK6812"
 			(at 0 3.5 0)
 			(layer "B.Fab")
-			(uuid "fc2985d5-482a-48e1-943d-dc1423b9e47c")
+			(uuid "e518991a-ae1f-4f0c-a318-9ec1a3a63d6f")
 			(effects
 				(font
 					(size 1 1)
@@ -60395,11 +60396,11 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "372d76fb-fc06-4065-beed-77066d9b856e")
+			(uuid "9b9856d7-1df5-41d7-a5fe-69eb4d20f8d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60409,11 +60410,11 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1b3af418-9702-43bd-88c6-1d2e5b5cc07f")
+			(uuid "1c6541f4-2756-4f00-b2d3-792ce003efe4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -60423,7 +60424,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -60477,16 +60478,6 @@
 			(uuid "10ebee14-4a44-4e42-91fc-80802fbe6033")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "c9c7848b-8ad5-4efe-99a4-1439bb281a30")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -60497,24 +60488,24 @@
 			(uuid "6b3d7457-6b18-4867-90c7-9b6db67ef294")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "7f025fa4-0170-4bde-a3cd-e66093ebb291")
+			(layer "Dwgs.User")
+			(uuid "c9c7848b-8ad5-4efe-99a4-1439bb281a30")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "010755cc-fb7f-4722-93a0-a11c50bdb031")
+			(uuid "39a7b5ea-16dd-4cfd-9580-7ba8d6c2bf0f")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -60527,36 +60518,35 @@
 			(uuid "68765050-bf0b-40f6-969f-f82c63a621f0")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "39a7b5ea-16dd-4cfd-9580-7ba8d6c2bf0f")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "6e2cb9c7-bb86-4b73-ba2d-7cd062bc90ca")
+			(uuid "010755cc-fb7f-4722-93a0-a11c50bdb031")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "6d59e2c4-d3d8-45e8-a035-ab91a73df7a3")
+			(uuid "7f025fa4-0170-4bde-a3cd-e66093ebb291")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "71f6172f-c996-4b34-9769-902cc65ff009")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -60570,15 +60560,26 @@
 			(uuid "ad83d899-8b08-4487-b840-03f39c83f149")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "71f6172f-c996-4b34-9769-902cc65ff009")
+			(uuid "6d59e2c4-d3d8-45e8-a035-ab91a73df7a3")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6e2cb9c7-bb86-4b73-ba2d-7cd062bc90ca")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -60603,7 +60604,7 @@
 			(uuid "3e50a08a-9d49-42c3-bc0a-aa76ceec2432")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -60612,7 +60613,7 @@
 			(uuid "52b2af88-fd09-40a3-8021-f4d2d6b5bf94")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 180 "Net-(LD104-DIN)")
@@ -60622,7 +60623,7 @@
 			(uuid "2538849e-93a6-4a9f-8d1b-6fc8e3a1866e")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -60631,7 +60632,7 @@
 			(uuid "9be1e6d1-f201-4a76-b874-afb05ac22b44")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 179 "Net-(LD103-DIN)")
@@ -60874,9 +60875,9 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "62967a57-afe2-467f-8c1c-6ff45601a671")
-		(at 192.655035 113.75 180)
+		(at 191.23 114.36 15)
 		(property "Reference" "LD128"
-			(at -0.02 -3.18 0)
+			(at -0.02 -3.18 15)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "bf84da3a-0dbd-4691-a186-be6d77828b66")
@@ -60889,7 +60890,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 0 3.5 0)
+			(at 0 3.5 15)
 			(layer "B.Fab")
 			(uuid "b749ee48-c7c5-46f1-9d23-2adfc4cbdda5")
 			(effects
@@ -60901,7 +60902,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 195)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -60915,7 +60916,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 195)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -60929,7 +60930,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 195)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -60983,16 +60984,6 @@
 			(uuid "a7afb3bb-8500-4801-ae1c-e30b05f9bcb1")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "388af020-1b09-45b4-86a8-cd7b8c03ff97")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -61003,24 +60994,24 @@
 			(uuid "4634183c-42b4-49ff-8f98-dd028613abff")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "fb3e7705-acf0-430c-999b-0fb03ec9a1ee")
+			(layer "Dwgs.User")
+			(uuid "388af020-1b09-45b4-86a8-cd7b8c03ff97")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "dc28ab58-5a08-41db-a430-944a4f186ee9")
+			(uuid "82c93fee-3d17-4093-965b-9aaa8436d56c")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -61033,36 +61024,35 @@
 			(uuid "47022c82-be61-4d44-9485-8dc5df03aad0")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "82c93fee-3d17-4093-965b-9aaa8436d56c")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "9ea49e8b-6d43-43d2-b557-b1c72d5243a5")
+			(uuid "dc28ab58-5a08-41db-a430-944a4f186ee9")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "39c36de2-d452-4833-acf6-15ef1650be7c")
+			(uuid "fb3e7705-acf0-430c-999b-0fb03ec9a1ee")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "985d6799-cad3-431d-9d22-41f795ab31ac")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -61076,19 +61066,31 @@
 			(uuid "b4c1f506-dce0-42e6-85ce-272208c74b04")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "985d6799-cad3-431d-9d22-41f795ab31ac")
+			(uuid "39c36de2-d452-4833-acf6-15ef1650be7c")
 		)
-		(fp_rect
-			(start -4 2.25)
-			(end 4 -2.25)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9ea49e8b-6d43-43d2-b557-b1c72d5243a5")
+		)
+		(fp_poly
+			(pts
+				(xy -3.999999 2.25) (xy 4 2.25) (xy 3.999999 -2.25) (xy -4 -2.25)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -61109,7 +61111,7 @@
 			(uuid "8fd2cf6e-a723-4553-ae9b-9dd449fe9147")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75 15)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -61118,7 +61120,7 @@
 			(uuid "ecc4c14c-e3a3-40b1-bf26-6d1820dbf6b6")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 195)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 205 "Net-(LD128-DIN)")
@@ -61128,7 +61130,7 @@
 			(uuid "ed7ec70e-c120-4a90-9804-e0ff51d703fb")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 195)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -61137,7 +61139,7 @@
 			(uuid "4ff84b52-bf16-4185-b9a6-ebedeb02f157")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75 15)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 204 "Net-(LD127-DIN)")
@@ -62150,7 +62152,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "692e2cd2-7b6d-4350-91b0-48201227e0ed")
-		(at 210.5 32.75 180)
+		(at 210.5 32.75)
 		(property "Reference" "LD105"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -62177,7 +62179,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -62191,7 +62193,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -62205,7 +62207,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -62259,16 +62261,6 @@
 			(uuid "0004c91a-5c38-4e25-94b6-13511cd0c87e")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "001bb26c-5098-4d85-9511-15fb3fe0a8ba")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -62279,24 +62271,24 @@
 			(uuid "bbaa6bb0-63a6-4ecd-afaf-cb447abadf66")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "63c1a1ab-713f-4cb4-b605-fb09d8f8ac53")
+			(layer "Dwgs.User")
+			(uuid "001bb26c-5098-4d85-9511-15fb3fe0a8ba")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "97718bf4-b496-4771-891a-ac803552970c")
+			(uuid "6efd6bb2-f700-4fde-82ad-6011cd05b50a")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -62309,36 +62301,35 @@
 			(uuid "effa5cdc-6947-452f-aa38-7e79a3d5050a")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "6efd6bb2-f700-4fde-82ad-6011cd05b50a")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d160d53d-679a-4573-9e8d-de7e8abb8fc8")
+			(uuid "97718bf4-b496-4771-891a-ac803552970c")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d089f5f9-22cb-4a80-aac5-eb32aca940a4")
+			(uuid "63c1a1ab-713f-4cb4-b605-fb09d8f8ac53")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cb3ae0ce-25b1-44ae-8f97-050a61f91149")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -62352,15 +62343,26 @@
 			(uuid "21c361e2-1e36-4da2-917e-51cda722b6d2")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "cb3ae0ce-25b1-44ae-8f97-050a61f91149")
+			(uuid "d089f5f9-22cb-4a80-aac5-eb32aca940a4")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d160d53d-679a-4573-9e8d-de7e8abb8fc8")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -62385,7 +62387,7 @@
 			(uuid "2512d3d5-9cc6-40bf-96ed-dccf40eab7e3")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -62394,7 +62396,7 @@
 			(uuid "9fd83df0-e8af-4d44-b28f-465307a5c37b")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 181 "Net-(LD105-DIN)")
@@ -62404,7 +62406,7 @@
 			(uuid "9d393e29-8c2d-4aa2-8f39-0a481cfcb067")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -62413,7 +62415,7 @@
 			(uuid "7d18af33-5559-428c-b74b-d1af155cd165")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 180 "Net-(LD104-DIN)")
@@ -63382,7 +63384,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "6c6081de-3bfd-4d08-b02b-83fd9fb5ad5a")
-		(at 286.5 43.75 180)
+		(at 286.5 43.75)
 		(property "Reference" "LD101"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -63409,7 +63411,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -63423,7 +63425,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -63437,7 +63439,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -63491,16 +63493,6 @@
 			(uuid "487736ed-316e-4093-ad8c-8ad67aa307cb")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "376a2e9c-cc91-4af1-a64c-67822a7a2de2")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -63511,24 +63503,24 @@
 			(uuid "b592aa23-8b32-49d1-88de-8015a59e2eab")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "1c143805-3f2d-4313-905c-cc4a69a4a2fc")
+			(layer "Dwgs.User")
+			(uuid "376a2e9c-cc91-4af1-a64c-67822a7a2de2")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "bd025d0a-4bc8-4346-9ca7-6eb143d9faf5")
+			(uuid "15d04bd7-2743-446e-9428-73596c57a44e")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -63541,36 +63533,35 @@
 			(uuid "cfd6ebf8-8181-4a68-8a65-aa329d3616a1")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "15d04bd7-2743-446e-9428-73596c57a44e")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "d319871c-549c-47fc-ba31-184100bbf2e3")
+			(uuid "bd025d0a-4bc8-4346-9ca7-6eb143d9faf5")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "94fb75dc-fa2b-4b44-9a80-82b8f71c342b")
+			(uuid "1c143805-3f2d-4313-905c-cc4a69a4a2fc")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6056aa3d-5f04-4de1-8e53-add2f1626dd0")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -63584,15 +63575,26 @@
 			(uuid "77f69c0a-5c64-4f8d-84be-66d65aae97b6")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "6056aa3d-5f04-4de1-8e53-add2f1626dd0")
+			(uuid "94fb75dc-fa2b-4b44-9a80-82b8f71c342b")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d319871c-549c-47fc-ba31-184100bbf2e3")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -63617,7 +63619,7 @@
 			(uuid "40908b5b-5a60-4717-b586-b83cd2e4b3c3")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -63626,7 +63628,7 @@
 			(uuid "58aa3686-3303-4da6-a98d-248fb083e3ad")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 177 "Net-(LD101-DIN)")
@@ -63636,7 +63638,7 @@
 			(uuid "d52027f4-1800-4b87-9bdf-9ac5d1e1ba66")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -63645,7 +63647,7 @@
 			(uuid "98b016bd-132b-4de6-aaa7-da71e2b8897d")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 176 "Net-(LD101-DOUT)")
@@ -63670,7 +63672,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "6c985966-e8a5-4e96-beea-6eef022f1274")
-		(at 248.25 71 180)
+		(at 248.5 70.75)
 		(property "Reference" "LD115"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -63697,7 +63699,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -63711,7 +63713,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -63725,7 +63727,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -63779,16 +63781,6 @@
 			(uuid "db8769cf-67a6-4905-a1f3-d0fdc0c72fab")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "15628d1b-4956-493e-b73b-5f78907922c5")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -63799,24 +63791,24 @@
 			(uuid "e71061d1-20dd-488f-9ca0-94b3ede69d0e")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "f7efc662-0f15-4560-96a2-522af5d58c1a")
+			(layer "Dwgs.User")
+			(uuid "15628d1b-4956-493e-b73b-5f78907922c5")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "bf12011e-6804-4ff6-853b-2dd21be68c82")
+			(uuid "8b9463cb-f2a0-4b63-bb67-7ff6d3e87823")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -63829,36 +63821,35 @@
 			(uuid "a7d622ba-6476-4370-a799-cb8b7aecfbbb")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "8b9463cb-f2a0-4b63-bb67-7ff6d3e87823")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "5b986d2d-5d39-4272-b769-bf209069d8d7")
+			(uuid "bf12011e-6804-4ff6-853b-2dd21be68c82")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4d173873-36ce-4e32-aa31-4b059c0576c9")
+			(uuid "f7efc662-0f15-4560-96a2-522af5d58c1a")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "802f8b43-9f7c-4ba0-9098-de673196ecc9")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -63872,15 +63863,26 @@
 			(uuid "95118777-8d5f-4ac7-b3b7-c44170eda1d5")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "802f8b43-9f7c-4ba0-9098-de673196ecc9")
+			(uuid "4d173873-36ce-4e32-aa31-4b059c0576c9")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5b986d2d-5d39-4272-b769-bf209069d8d7")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -63905,7 +63907,7 @@
 			(uuid "a2fdbd77-5d97-4159-9671-42f071847ce1")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -63914,7 +63916,7 @@
 			(uuid "6029b1af-bff5-499a-a5cb-f3aa0e9c9efd")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 192 "Net-(LD115-DIN)")
@@ -63924,7 +63926,7 @@
 			(uuid "76d6311e-e9ae-475c-92c5-c1b5b8d80b11")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -63933,7 +63935,7 @@
 			(uuid "9ed06773-ee52-4bb6-93da-c6e39b0c4fc8")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 191 "Net-(LD114-DIN)")
@@ -64684,7 +64686,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "708a2202-a4f7-4a15-9933-d2fdb63b3ea8")
-		(at 210.75 71 180)
+		(at 210.5 70.75)
 		(property "Reference" "LD117"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -64711,7 +64713,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64725,7 +64727,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64739,7 +64741,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -64793,16 +64795,6 @@
 			(uuid "6e1de386-6b71-42a4-abd7-f58293aad949")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "5e05ec25-6589-40fa-bb33-1cec8d1bd655")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -64813,24 +64805,24 @@
 			(uuid "79ace0fb-2762-4dc6-adda-bfc18706c4df")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "c9b7970f-dc04-4e04-a391-e542667aaa92")
+			(layer "Dwgs.User")
+			(uuid "5e05ec25-6589-40fa-bb33-1cec8d1bd655")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c816ee04-6bd1-4640-9f9b-400fbcf30a7e")
+			(uuid "1831ca2f-6b00-4344-8985-95a05bc0ab39")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -64843,36 +64835,35 @@
 			(uuid "5ba9971d-1227-413b-9387-d702c4783807")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "1831ca2f-6b00-4344-8985-95a05bc0ab39")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "36886518-29dc-4c15-9cb9-1f4c0fea9e90")
+			(uuid "c816ee04-6bd1-4640-9f9b-400fbcf30a7e")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4f729b1d-1a08-4dd0-9a16-31221c6d31b2")
+			(uuid "c9b7970f-dc04-4e04-a391-e542667aaa92")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f0a20d4d-3c26-4eaf-9f28-83275920438a")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -64886,15 +64877,26 @@
 			(uuid "05550b76-1c5f-41f7-9aec-6d13668bda4b")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "f0a20d4d-3c26-4eaf-9f28-83275920438a")
+			(uuid "4f729b1d-1a08-4dd0-9a16-31221c6d31b2")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "36886518-29dc-4c15-9cb9-1f4c0fea9e90")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -64919,7 +64921,7 @@
 			(uuid "3200b7f9-faea-4df9-80f3-2af77bfa7bcd")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -64928,7 +64930,7 @@
 			(uuid "aaaa1151-7c7c-4bba-9828-732f93c818d9")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 194 "Net-(LD117-DIN)")
@@ -64938,7 +64940,7 @@
 			(uuid "f777fd13-4cfe-4c03-be15-bf9a54e2da49")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -64947,7 +64949,7 @@
 			(uuid "495f141c-f6fa-4ef6-af38-e504a3494a20")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 193 "Net-(LD116-DIN)")
@@ -68350,7 +68352,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "800316b3-f840-4e70-b5be-6e522ca91c21")
-		(at 232.5 84 180)
+		(at 229.5 86.25 180)
 		(property "Reference" "LD122"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -70755,7 +70757,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "89b5c73e-761d-4405-9a9f-14f046a30e5d")
-		(at 191.5 74.75 180)
+		(at 191.5 74.25)
 		(property "Reference" "LD118"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -70782,7 +70784,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -70796,7 +70798,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -70810,7 +70812,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -70864,16 +70866,6 @@
 			(uuid "7aa5ae25-95e4-4bad-a1c0-790f6e6ae166")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "8af45b33-d9da-47c2-abf8-20101844a8e7")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -70884,24 +70876,24 @@
 			(uuid "1f0c350c-35be-4b59-ac66-ed4df8985bef")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "4bed35cb-d1cd-4a40-b3bc-d9cd2b37f676")
+			(layer "Dwgs.User")
+			(uuid "8af45b33-d9da-47c2-abf8-20101844a8e7")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "22b8603a-55a0-4cfb-8e70-99ff512afcc1")
+			(uuid "6de25d37-065d-47fe-9e38-ddcff4ad03b1")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -70914,36 +70906,35 @@
 			(uuid "06e80537-5444-4fb9-af50-8ab48a0afc5a")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "6de25d37-065d-47fe-9e38-ddcff4ad03b1")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c46efbc0-7443-4397-b81e-3e0c25e2b9e1")
+			(uuid "22b8603a-55a0-4cfb-8e70-99ff512afcc1")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "bdd0263f-2ef8-4e48-ba3e-5adc3b9ca8cb")
+			(uuid "4bed35cb-d1cd-4a40-b3bc-d9cd2b37f676")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "1658bc82-fbde-4ac1-99eb-2d7c88175754")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -70957,15 +70948,26 @@
 			(uuid "455e19d1-ccad-40fc-8a59-67ecbcd453ac")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "1658bc82-fbde-4ac1-99eb-2d7c88175754")
+			(uuid "bdd0263f-2ef8-4e48-ba3e-5adc3b9ca8cb")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c46efbc0-7443-4397-b81e-3e0c25e2b9e1")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -70990,7 +70992,7 @@
 			(uuid "2406ec0d-46a4-4e48-835f-9183816aefc1")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -70999,7 +71001,7 @@
 			(uuid "6e82fa42-e792-468f-834b-6ca70963ae10")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 188 "Net-(LD112-DOUT)")
@@ -71009,7 +71011,7 @@
 			(uuid "49c5025a-9c61-4732-9bb5-b92b72ca3a97")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -71018,7 +71020,7 @@
 			(uuid "185adb22-990f-4ef4-8ad1-71e6a23dba57")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 194 "Net-(LD117-DIN)")
@@ -77511,7 +77513,7 @@
 		(property "Reference" "U101"
 			(at 0 4.83 0)
 			(layer "B.SilkS")
-			(uuid "39c420c2-8902-45fb-a418-e56cffcd1ace")
+			(uuid "2452b773-a906-48b3-8018-ecad084c5e89")
 			(effects
 				(font
 					(size 1 1)
@@ -77523,7 +77525,7 @@
 		(property "Value" "RP2040"
 			(at 0 -4.83 0)
 			(layer "B.Fab")
-			(uuid "53c14753-8c37-4e85-b4df-6cf88a89305e")
+			(uuid "53f93d7b-d138-4e49-bf39-d39185b854e0")
 			(effects
 				(font
 					(size 1 1)
@@ -77536,7 +77538,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "751b15e0-eefa-46c6-9b7c-df452a7e1b14")
+			(uuid "4748dfce-5980-4554-815d-2cfcf04a1a89")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -77549,7 +77551,7 @@
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "83b3187d-a8f6-4828-b717-d57a0707cada")
+			(uuid "2aa7763d-0591-4ded-aa02-61f4f684536c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78319,7 +78321,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "a47070ff-bbb8-49b8-a549-2a7823d29acc")
-		(at 172.25 97.75 180)
+		(at 172.5 96.75 180)
 		(property "Reference" "LD130"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -81613,7 +81615,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "b376c593-8cad-4f8e-86a8-07386765052c")
-		(at 267 99.75 180)
+		(at 267.5 100.75 180)
 		(property "Reference" "LD120"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -85787,7 +85789,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "c16e002f-81ff-4ce3-8c19-dd49a9cbb840")
-		(at 229.25 104.25 180)
+		(at 229.5 105.25)
 		(property "Reference" "LD126"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -85814,7 +85816,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -85828,7 +85830,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -85842,7 +85844,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -85896,16 +85898,6 @@
 			(uuid "dee916c1-9623-42e3-9924-2551cce20c8a")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "73b33278-e3ca-4ed0-a544-2284cea14ea3")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -85916,24 +85908,24 @@
 			(uuid "be8d2b74-9c27-4935-8de5-5aed5b2e5010")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "eb47da65-9185-45f1-8109-59e47f51066f")
+			(layer "Dwgs.User")
+			(uuid "73b33278-e3ca-4ed0-a544-2284cea14ea3")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "12bf33ac-a715-434b-973f-d82294b827be")
+			(uuid "7d346884-8795-4dba-89af-b4ee1c1b1cf5")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -85946,36 +85938,35 @@
 			(uuid "f2bdbc79-984c-4789-b894-8416ffd36be5")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "7d346884-8795-4dba-89af-b4ee1c1b1cf5")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "99bd1148-ef55-4ef8-99a5-caca643a8156")
+			(uuid "12bf33ac-a715-434b-973f-d82294b827be")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "054679ac-6414-4ec7-8b8b-db2212d69672")
+			(uuid "eb47da65-9185-45f1-8109-59e47f51066f")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b229bd85-783b-4fbc-8034-ad043279b618")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -85989,15 +85980,26 @@
 			(uuid "2d5a116b-a67f-44a2-9867-023aebef8f63")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "b229bd85-783b-4fbc-8034-ad043279b618")
+			(uuid "054679ac-6414-4ec7-8b8b-db2212d69672")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "99bd1148-ef55-4ef8-99a5-caca643a8156")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -86022,7 +86024,7 @@
 			(uuid "3ca13a83-9a65-4665-b372-162c5c9e7533")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -86031,7 +86033,7 @@
 			(uuid "6740323a-eda2-41e7-8c26-cfb49c499281")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 203 "Net-(LD126-DIN)")
@@ -86041,7 +86043,7 @@
 			(uuid "25f691ec-4478-4647-8665-0a2f76e21b8f")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -86050,7 +86052,7 @@
 			(uuid "558395e1-969a-4af9-9186-eb68410876cb")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 202 "Net-(LD125-DIN)")
@@ -88985,7 +88987,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "cabd9451-bbbd-4102-97ba-760a4f701df5")
-		(at 287.25 99.25 180)
+		(at 286.5 100.75 180)
 		(property "Reference" "LD119"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -89273,7 +89275,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "caefb9ff-7fd5-439c-8c8b-163468557c1a")
-		(at 248.5 106.5 180)
+		(at 248.5 108.75)
 		(property "Reference" "LD125"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -89300,7 +89302,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -89314,7 +89316,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -89328,7 +89330,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -89382,16 +89384,6 @@
 			(uuid "9200195a-b7a7-4993-96ff-a86597c8e6a4")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "cf7b6503-2390-40e8-ba04-65c2ce69c382")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -89402,24 +89394,24 @@
 			(uuid "11e6d106-6c62-43ba-923f-56a5ac2b3201")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "3497c3f8-f481-46f9-b438-7569bc3437e5")
+			(layer "Dwgs.User")
+			(uuid "cf7b6503-2390-40e8-ba04-65c2ce69c382")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "04402a8f-1965-4c93-a11f-114fd3ab77dd")
+			(uuid "f459c1e2-3eea-4ab8-8309-cded5f74c549")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -89432,36 +89424,35 @@
 			(uuid "79febc9c-5679-45bf-86fb-44b409bc4e47")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "f459c1e2-3eea-4ab8-8309-cded5f74c549")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "3b9d823f-0e8d-4ada-9c61-a6005538b39b")
+			(uuid "04402a8f-1965-4c93-a11f-114fd3ab77dd")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ae47d07b-6ba0-4cee-b02c-8e49bc3c2f65")
+			(uuid "3497c3f8-f481-46f9-b438-7569bc3437e5")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8d0fa59d-f87b-4059-a3d0-b94be166cc7e")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -89475,15 +89466,26 @@
 			(uuid "6b960273-0df2-4965-9ab9-844e4633a56b")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "8d0fa59d-f87b-4059-a3d0-b94be166cc7e")
+			(uuid "ae47d07b-6ba0-4cee-b02c-8e49bc3c2f65")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3b9d823f-0e8d-4ada-9c61-a6005538b39b")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -89508,7 +89510,7 @@
 			(uuid "c29ccd0a-2c92-49cb-9728-ed6eccff250e")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -89517,7 +89519,7 @@
 			(uuid "78b9e65f-10d7-4ae1-8a66-9f1c8f28f20e")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 202 "Net-(LD125-DIN)")
@@ -89527,7 +89529,7 @@
 			(uuid "7c5d60c5-cbcd-4103-82e2-a6bb80c476e6")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -89536,7 +89538,7 @@
 			(uuid "46a89d91-764c-4e5a-b067-812b86c648eb")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 201 "unconnected-(LD125-DOUT-Pad4)")
@@ -90261,7 +90263,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "cbe25465-c291-4a47-a41b-176cd3fa17eb")
-		(at 211.75 110 180)
+		(at 210.5 108.75)
 		(property "Reference" "LD127"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -90288,7 +90290,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -90302,7 +90304,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -90316,7 +90318,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -90370,16 +90372,6 @@
 			(uuid "002d6ca3-29fa-4305-a883-0c57666f419b")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "2c8d6c64-56b4-4120-a825-431364e2f864")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -90390,24 +90382,24 @@
 			(uuid "630d4332-da91-489f-acd4-616edf5238ec")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "bd19b76e-9e60-45e4-bf5f-511a06daa7e7")
+			(layer "Dwgs.User")
+			(uuid "2c8d6c64-56b4-4120-a825-431364e2f864")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "2d020b9c-9028-4e16-910e-c758adc2927f")
+			(uuid "0db52527-f592-426e-b75f-4b40912d5cb1")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -90420,36 +90412,35 @@
 			(uuid "56498e44-c558-4fc4-b997-15ee13884e41")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "0db52527-f592-426e-b75f-4b40912d5cb1")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "68679e45-7b25-4b3f-bbdd-f82c85b032bd")
+			(uuid "2d020b9c-9028-4e16-910e-c758adc2927f")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "72fcf7a7-65bd-4012-8147-81e1c3162c02")
+			(uuid "bd19b76e-9e60-45e4-bf5f-511a06daa7e7")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ec0931bf-e903-4815-a856-1f55473907bc")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -90463,15 +90454,26 @@
 			(uuid "04786abb-b7fe-47ed-9798-e9ac5df65809")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ec0931bf-e903-4815-a856-1f55473907bc")
+			(uuid "72fcf7a7-65bd-4012-8147-81e1c3162c02")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "68679e45-7b25-4b3f-bbdd-f82c85b032bd")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -90496,7 +90498,7 @@
 			(uuid "fb03d013-a625-4ae1-a82a-467e981611d3")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -90505,7 +90507,7 @@
 			(uuid "e00bc523-fd68-447b-a498-21ab7638ab34")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 204 "Net-(LD127-DIN)")
@@ -90515,7 +90517,7 @@
 			(uuid "7dc2f67e-ecf1-475c-9ce1-d2fcbeb78507")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -90524,7 +90526,7 @@
 			(uuid "ea51f87d-f31b-4ff8-a6b7-71c7cdf13801")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 203 "Net-(LD126-DIN)")
@@ -91100,7 +91102,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "ce86ec77-bf4d-4886-b7ff-aaa45c1011bd")
-		(at 267.5 43.75 180)
+		(at 267.5 43.75)
 		(property "Reference" "LD102"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -91127,7 +91129,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -91141,7 +91143,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -91155,7 +91157,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -91209,16 +91211,6 @@
 			(uuid "309c973a-2e0c-4356-8418-6a75838f56cd")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "8f551568-686f-40f6-9b30-ad7ca3d0947f")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -91229,24 +91221,24 @@
 			(uuid "0955f16b-3f3f-49b1-95bb-44e42e9abf61")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "1e1051ae-c414-4eb2-8cf3-c96ca12398bf")
+			(layer "Dwgs.User")
+			(uuid "8f551568-686f-40f6-9b30-ad7ca3d0947f")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "2d513b8c-b4a6-4b88-9dd9-b9c4e663c231")
+			(uuid "676e5774-b5d6-464f-b8b9-fb06d9d09bc6")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -91259,36 +91251,35 @@
 			(uuid "35244118-fc9d-4b74-b8fa-5406e639db3f")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "676e5774-b5d6-464f-b8b9-fb06d9d09bc6")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "4939218d-d0ee-4b59-8d70-32e8cd359ceb")
+			(uuid "2d513b8c-b4a6-4b88-9dd9-b9c4e663c231")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "e3087371-4526-4120-ada3-09bdb02fb16a")
+			(uuid "1e1051ae-c414-4eb2-8cf3-c96ca12398bf")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "6042804e-0f3e-419e-959f-090a087ab921")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -91302,15 +91293,26 @@
 			(uuid "1f033b9d-f09c-491c-8d47-a729f725c8a5")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "6042804e-0f3e-419e-959f-090a087ab921")
+			(uuid "e3087371-4526-4120-ada3-09bdb02fb16a")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4939218d-d0ee-4b59-8d70-32e8cd359ceb")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -91335,7 +91337,7 @@
 			(uuid "7ca276a6-7bc9-403a-a842-195dd7a2693a")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -91344,7 +91346,7 @@
 			(uuid "fb3c5c26-8b1a-4694-b3ef-f2a167b89edf")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 178 "Net-(LD102-DIN)")
@@ -91354,7 +91356,7 @@
 			(uuid "98b4cae2-b3ac-4606-9599-8d9fd59e00c1")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -91363,7 +91365,7 @@
 			(uuid "65550f42-4ad8-4371-9f3a-f07dd237b980")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 177 "Net-(LD101-DIN)")
@@ -94986,7 +94988,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "dc67445a-a88e-4171-b6e6-8108936bdf9e")
-		(at 248.5 32.75 180)
+		(at 248.5 32.75)
 		(property "Reference" "LD103"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -95013,7 +95015,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95027,7 +95029,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95041,7 +95043,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -95095,16 +95097,6 @@
 			(uuid "c2949f84-63a7-42e7-b28d-f661f144174c")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "931d9d8c-48fe-4d4f-a613-6421c0d1c5b1")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -95115,24 +95107,24 @@
 			(uuid "f252e51d-122b-4e35-b143-bd8a66801347")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "8cd17d65-f373-4dc6-9473-bfff656baa29")
+			(layer "Dwgs.User")
+			(uuid "931d9d8c-48fe-4d4f-a613-6421c0d1c5b1")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "95013bc4-05b1-4636-a805-d9ff6032f14a")
+			(uuid "965c1dd0-b7b4-4d8f-9a7b-9fff7ba19df1")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -95145,36 +95137,35 @@
 			(uuid "7987899b-47c6-4b86-ab9b-4a6435709d4d")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "965c1dd0-b7b4-4d8f-9a7b-9fff7ba19df1")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "cdd17086-f1c4-4526-959e-0ed5a24c49ca")
+			(uuid "95013bc4-05b1-4636-a805-d9ff6032f14a")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "1a30327b-472d-468a-90d1-2327c1ae63d9")
+			(uuid "8cd17d65-f373-4dc6-9473-bfff656baa29")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "aba5f757-f614-437e-b06a-38c52c8f58f9")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -95188,15 +95179,26 @@
 			(uuid "e5d62b18-2e1d-4901-8d83-956168ca5b03")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "aba5f757-f614-437e-b06a-38c52c8f58f9")
+			(uuid "1a30327b-472d-468a-90d1-2327c1ae63d9")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "cdd17086-f1c4-4526-959e-0ed5a24c49ca")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -95221,7 +95223,7 @@
 			(uuid "0474968b-584a-4254-9026-a6e2bbd8c6b4")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -95230,7 +95232,7 @@
 			(uuid "118ccc04-ea74-4e31-a89c-1336f07bcae3")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 179 "Net-(LD103-DIN)")
@@ -95240,7 +95242,7 @@
 			(uuid "ced7aad8-dea8-46f5-b4c6-a2149c2985d5")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -95249,7 +95251,7 @@
 			(uuid "adbaf1e4-c3f9-43dd-8e1b-60d2f8b6657f")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 178 "Net-(LD102-DIN)")
@@ -100920,7 +100922,7 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "f3b7bdba-d8a4-469e-b66d-354a1a78a0db")
-		(at 247.75 88.5 180)
+		(at 248.5 89.75 180)
 		(property "Reference" "LD121"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
@@ -102999,12 +103001,12 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "f90da76a-250a-4436-a29f-d3a0c3dffdac")
-		(at 229 68.5 180)
+		(at 229.5 67.25)
 		(property "Reference" "LD116"
 			(at -0.02 -3.18 0)
 			(layer "B.SilkS")
 			(hide yes)
-			(uuid "7337ea4a-773a-40c6-93ca-f675c35ecd59")
+			(uuid "28dd53a1-4fd1-4636-8e1a-53f4b8ee0be6")
 			(effects
 				(font
 					(size 1 1)
@@ -103016,7 +103018,7 @@
 		(property "Value" "SK6812"
 			(at 0 3.5 0)
 			(layer "B.Fab")
-			(uuid "1bfb1d7b-7cda-486f-afe6-03be53e290ac")
+			(uuid "ffc53e09-026d-4071-a381-8702d5828742")
 			(effects
 				(font
 					(size 1 1)
@@ -103026,11 +103028,11 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "97a99981-308b-4b20-8a7c-7b0824a38822")
+			(uuid "c13c7f10-b027-4449-bcdc-0789a0de14d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103040,11 +103042,11 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "08a6bb5f-1112-4659-af78-082a66eff27e")
+			(uuid "499f80c3-aeee-47fd-be38-f011ba5ef61f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -103054,7 +103056,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -103108,16 +103110,6 @@
 			(uuid "8a38c44f-a252-4e91-9dc6-6aaff18af026")
 		)
 		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "aae37702-1edc-4514-92e1-6c6cd8b360d9")
-		)
-		(fp_line
 			(start -0.3 0)
 			(end 0.3 0)
 			(stroke
@@ -103128,24 +103120,24 @@
 			(uuid "d3d20ffb-4f8e-43cd-8b6a-68d60ad6f3f4")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "90b8ec9a-3b37-48b8-81d7-550db2ba6a70")
+			(layer "Dwgs.User")
+			(uuid "aae37702-1edc-4514-92e1-6c6cd8b360d9")
 		)
 		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
+			(start -1.7 1.5)
+			(end -1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c254de57-cdc7-4421-9905-9db7211fa448")
+			(uuid "dc9a4798-22da-43c3-9db4-6cc04983a8ab")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -103158,36 +103150,35 @@
 			(uuid "3613713f-4552-41bb-b809-6849dbc1c095")
 		)
 		(fp_line
-			(start -1.7 1.5)
-			(end -1.7 -1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "dc9a4798-22da-43c3-9db4-6cc04983a8ab")
-		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "64d77c04-7be7-4c9d-8a3c-5ae14cf66426")
+			(uuid "c254de57-cdc7-4421-9905-9db7211fa448")
 		)
-		(fp_arc
-			(start 0.7 -1.5)
-			(mid 1.2 -2)
-			(end 1.7 -1.5)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "3f06b069-d3a0-4673-8bf9-7e612d72ce06")
+			(uuid "90b8ec9a-3b37-48b8-81d7-550db2ba6a70")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.2 -2)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "c2998875-3d7d-4ed7-ac34-d032100cc997")
 		)
 		(fp_arc
 			(start -0.7 1.5)
@@ -103201,15 +103192,26 @@
 			(uuid "1855b6fe-b2f0-4b46-a0b2-8eeca1a9892a")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 0.7 -1.5)
+			(mid 1.2 -2)
+			(end 1.7 -1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "c2998875-3d7d-4ed7-ac34-d032100cc997")
+			(uuid "3f06b069-d3a0-4673-8bf9-7e612d72ce06")
+		)
+		(fp_arc
+			(start 1.7 1.5)
+			(mid 1.2 2)
+			(end 0.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "64d77c04-7be7-4c9d-8a3c-5ae14cf66426")
 		)
 		(fp_rect
 			(start -4 2.25)
@@ -103234,7 +103236,7 @@
 			(uuid "7aade479-29ab-47f0-b6d5-cddf1fce8dcc")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -103243,7 +103245,7 @@
 			(uuid "cdc076a8-d95a-4574-bbbc-1341d3b74dd8")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 193 "Net-(LD116-DIN)")
@@ -103253,7 +103255,7 @@
 			(uuid "e9a877d8-6fee-4417-8f8a-fee29bb0d16b")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 180)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -103262,7 +103264,7 @@
 			(uuid "646bdaa2-c263-48e7-afc3-de1d2d91ed1c")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 192 "Net-(LD115-DIN)")
@@ -104414,9 +104416,9 @@
 	(footprint "GDEK:SK6812MINIE"
 		(layer "B.Cu")
 		(uuid "fde1bb5a-7453-4b4e-8d66-3a97611794db")
-		(at 178.25 124.25 180)
+		(at 174.04 124.76 30)
 		(property "Reference" "LD129"
-			(at -0.02 -3.18 0)
+			(at -0.019999 -3.18 30)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "c2ed696e-81c1-4e8b-85af-f10aad3e2a02")
@@ -104429,7 +104431,7 @@
 			)
 		)
 		(property "Value" "SK6812"
-			(at 0 3.5 0)
+			(at 0 3.499999 30)
 			(layer "B.Fab")
 			(uuid "6b0e1410-fabe-414e-b631-359ba9fd1ad2")
 			(effects
@@ -104441,7 +104443,7 @@
 			)
 		)
 		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/1138/SK6812+LED+datasheet+.pdf"
-			(at 0 0.14 0)
+			(at 0 0.14 210)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -104455,7 +104457,7 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
-			(at 0 0.14 0)
+			(at 0 0.14 210)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -104469,7 +104471,7 @@
 			)
 		)
 		(property "LCSC" "C5149201"
-			(at 0 0 0)
+			(at 0 0 210)
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
@@ -104489,7 +104491,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy -1.7 -1.11) (xy -3.3 -1.11) (xy -3.7 -0.725) (xy -3.7 -0.39) (xy -1.7 -0.39)
+				(xy -1.7 -1.11) (xy -3.3 -1.11) (xy -3.7 -0.725001) (xy -3.7 -0.39) (xy -1.699998 -0.39)
 			)
 			(stroke
 				(width 0.1)
@@ -104500,8 +104502,8 @@
 			(uuid "44f58538-c405-4e5d-8db1-32dcfe3133f1")
 		)
 		(fp_circle
-			(center -2.5 -1.75)
-			(end -2.35 -1.55)
+			(center -2.5 -1.750001)
+			(end -2.35 -1.550001)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -104512,7 +104514,7 @@
 		)
 		(fp_poly
 			(pts
-				(xy -1.7 -1.11) (xy -3.3 -1.11) (xy -3.7 -0.725) (xy -3.7 -0.39) (xy -1.7 -0.39)
+				(xy -1.7 -1.11) (xy -3.3 -1.11) (xy -3.7 -0.725001) (xy -3.7 -0.39) (xy -1.699998 -0.39)
 			)
 			(stroke
 				(width 0.1)
@@ -104521,16 +104523,6 @@
 			(fill yes)
 			(layer "B.Paste")
 			(uuid "bf6c8a05-2743-496f-af5f-d275af60c555")
-		)
-		(fp_line
-			(start 0 -0.3)
-			(end 0 0.3)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "437402b4-ca40-4533-b027-7dd4bf25e720")
 		)
 		(fp_line
 			(start -0.3 0)
@@ -104543,24 +104535,14 @@
 			(uuid "d995353b-cbd3-42f9-a430-cf74a6b9d422")
 		)
 		(fp_line
-			(start 1.7 -1.5)
-			(end 1.7 1.5)
+			(start 0 -0.3)
+			(end 0 0.3)
 			(stroke
-				(width 0.1)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "Edge.Cuts")
-			(uuid "a0fad198-4e04-4e46-b93e-d7afb3eeff5d")
-		)
-		(fp_line
-			(start -0.7 1.5)
-			(end 0.7 1.5)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Edge.Cuts")
-			(uuid "3659fec1-55ae-48a8-baf0-aafbe9204d09")
+			(layer "Dwgs.User")
+			(uuid "437402b4-ca40-4533-b027-7dd4bf25e720")
 		)
 		(fp_line
 			(start -0.7 -1.5)
@@ -104582,16 +104564,36 @@
 			(layer "Edge.Cuts")
 			(uuid "bcb849a4-75b6-4ee8-bd0f-af58b1da89cc")
 		)
-		(fp_arc
-			(start 1.7 1.5)
-			(mid 1.2 2)
+		(fp_line
+			(start -0.7 1.5)
 			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "b5042967-61e5-4c97-9b4c-95c7a9bfc678")
+			(uuid "3659fec1-55ae-48a8-baf0-aafbe9204d09")
+		)
+		(fp_line
+			(start 1.7 -1.5)
+			(end 1.7 1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a0fad198-4e04-4e46-b93e-d7afb3eeff5d")
+		)
+		(fp_arc
+			(start -1.7 -1.5)
+			(mid -1.199999 -2.000001)
+			(end -0.7 -1.5)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ad3c958a-9437-4143-acf7-ec485567c0f6")
 		)
 		(fp_arc
 			(start 0.7 -1.5)
@@ -104616,19 +104618,20 @@
 			(uuid "07f3cadb-ce49-4e2b-b27e-ad2ec65765d2")
 		)
 		(fp_arc
-			(start -1.7 -1.5)
-			(mid -1.2 -2)
-			(end -0.7 -1.5)
+			(start 1.7 1.5)
+			(mid 1.199999 2.000001)
+			(end 0.7 1.5)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "Edge.Cuts")
-			(uuid "ad3c958a-9437-4143-acf7-ec485567c0f6")
+			(uuid "b5042967-61e5-4c97-9b4c-95c7a9bfc678")
 		)
-		(fp_rect
-			(start -4 2.25)
-			(end 4 -2.25)
+		(fp_poly
+			(pts
+				(xy -3.999999 2.25) (xy 3.999999 2.25) (xy 3.999999 -2.25) (xy -3.999999 -2.25)
+			)
 			(stroke
 				(width 0.05)
 				(type default)
@@ -104649,7 +104652,7 @@
 			(uuid "d3525570-7bc4-4a98-b6aa-1f5027c01e1d")
 		)
 		(pad "1" smd rect
-			(at -2.75 -0.75 180)
+			(at -2.75 -0.75 30)
 			(size 2 0.82)
 			(layers "B.Cu")
 			(net 123 "GND_R")
@@ -104658,7 +104661,7 @@
 			(uuid "5ef6350c-ea54-46b9-9b05-c322da452deb")
 		)
 		(pad "2" smd rect
-			(at -2.75 0.75)
+			(at -2.75 0.75 210)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 206 "Net-(LD129-DIN)")
@@ -104668,7 +104671,7 @@
 			(uuid "b78cc513-dfdd-40ab-9724-a7c15b426ce2")
 		)
 		(pad "3" smd rect
-			(at 2.75 0.75)
+			(at 2.75 0.75 210)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 122 "+5V_R")
@@ -104677,7 +104680,7 @@
 			(uuid "4721d0b8-1949-4f3a-87cc-e3bf91490118")
 		)
 		(pad "4" smd rect
-			(at 2.75 -0.75 180)
+			(at 2.75 -0.75 30)
 			(size 2 0.82)
 			(layers "B.Cu" "B.Mask" "B.Paste")
 			(net 205 "Net-(LD128-DIN)")
