@@ -9411,6 +9411,10 @@
 		(uuid "fe834d30-97a2-4e91-af63-73b29139a135")
 	)
 	(no_connect
+		(at 111.76 416.56)
+		(uuid "0067a37b-fc61-429e-9cb8-870b13d03fce")
+	)
+	(no_connect
 		(at 60.96 205.74)
 		(uuid "02459fc2-adfa-4e80-85b6-72311aaed67d")
 	)
@@ -9443,10 +9447,6 @@
 		(uuid "10c87afb-b067-48d4-9469-d0312d618376")
 	)
 	(no_connect
-		(at 111.76 419.1)
-		(uuid "1cf22626-1772-4818-ad56-c9b5c59b5308")
-	)
-	(no_connect
 		(at 111.76 160.02)
 		(uuid "2a0252e7-37d1-43cd-8d89-3a9df4ef9cfa")
 	)
@@ -9461,10 +9461,6 @@
 	(no_connect
 		(at 111.76 144.78)
 		(uuid "62561520-6e87-415f-98e1-d4103f6d8981")
-	)
-	(no_connect
-		(at 111.76 421.64)
-		(uuid "684a983a-7dd0-4e6f-87c2-98754e3ab85e")
 	)
 	(no_connect
 		(at 44.45 66.04)
@@ -9531,6 +9527,10 @@
 		(uuid "d2bb9253-eca9-458e-8db1-86172c608e82")
 	)
 	(no_connect
+		(at 111.76 414.02)
+		(uuid "d32ff6f7-9e01-4300-9483-d4b17f43ba5a")
+	)
+	(no_connect
 		(at 60.96 203.2)
 		(uuid "d4f27abf-2a8e-463c-920d-004444d9e4a6")
 	)
@@ -9543,12 +9543,12 @@
 		(uuid "ea2982f0-afef-4fc3-8113-50773e960ac5")
 	)
 	(no_connect
-		(at 111.76 424.18)
-		(uuid "ec27764b-b9dc-4588-b3c8-ea402d3b7b1a")
-	)
-	(no_connect
 		(at 44.45 304.8)
 		(uuid "efc4bd32-6782-4ac5-8c16-405ef14ad2ec")
+	)
+	(no_connect
+		(at 111.76 411.48)
+		(uuid "f1ce4ce5-e6f6-47b8-9c86-ba04f4fe60f5")
 	)
 	(no_connect
 		(at 44.45 307.34)
@@ -11696,7 +11696,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 414.02) (xy 128.27 414.02)
+			(xy 111.76 424.18) (xy 128.27 424.18)
 		)
 		(stroke
 			(width 0)
@@ -12206,7 +12206,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 411.48) (xy 128.27 411.48)
+			(xy 111.76 419.1) (xy 128.27 419.1)
 		)
 		(stroke
 			(width 0)
@@ -13926,7 +13926,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 416.56) (xy 128.27 416.56)
+			(xy 111.76 421.64) (xy 128.27 421.64)
 		)
 		(stroke
 			(width 0)
@@ -16605,7 +16605,7 @@
 		(uuid "0c4f34a5-248b-40f2-b121-f323ffcff6da")
 	)
 	(label "ENC_B_R"
-		(at 128.27 416.56 180)
+		(at 128.27 421.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16775,7 +16775,7 @@
 		(uuid "3643e8ba-8e63-435c-af1a-34395d42f895")
 	)
 	(label "ENC_A_R"
-		(at 128.27 414.02 180)
+		(at 128.27 424.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16815,7 +16815,7 @@
 		(uuid "3a63fa28-5da4-4ebe-959b-7a8c7cf515b6")
 	)
 	(label "ENC_SW_R"
-		(at 128.27 411.48 180)
+		(at 128.27 419.1 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18662,10 +18662,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "075ae91b-2569-4eb4-98ae-d7e46e2e8668")
 		(property "Reference" "R102"
-			(at 119.38 422.91 90)
+			(at 119.38 432.308 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18673,7 +18672,7 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 119.38 425.45 90)
+			(at 119.38 434.848 90)
 			(effects
 				(font
 					(size 1.27 1.27)
