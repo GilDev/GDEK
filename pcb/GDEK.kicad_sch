@@ -9415,6 +9415,10 @@
 		(uuid "02459fc2-adfa-4e80-85b6-72311aaed67d")
 	)
 	(no_connect
+		(at 111.76 393.7)
+		(uuid "03a948dd-2573-4149-9c82-1a2c74ff1849")
+	)
+	(no_connect
 		(at 60.96 444.5)
 		(uuid "09da79f3-eaac-489b-940a-d48d8be37b34")
 	)
@@ -9445,10 +9449,6 @@
 	(no_connect
 		(at 111.76 160.02)
 		(uuid "2a0252e7-37d1-43cd-8d89-3a9df4ef9cfa")
-	)
-	(no_connect
-		(at 111.76 452.12)
-		(uuid "32c21c84-5670-4b3c-b8e1-758fecd20d61")
 	)
 	(no_connect
 		(at 111.76 142.24)
@@ -9856,7 +9856,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 378.46) (xy 111.76 378.46)
+			(xy 128.27 375.92) (xy 111.76 375.92)
 		)
 		(stroke
 			(width 0)
@@ -9966,7 +9966,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 393.7) (xy 128.27 393.7)
+			(xy 111.76 396.24) (xy 128.27 396.24)
 		)
 		(stroke
 			(width 0)
@@ -11456,7 +11456,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 383.54) (xy 128.27 383.54)
+			(xy 111.76 381) (xy 128.27 381)
 		)
 		(stroke
 			(width 0)
@@ -12556,7 +12556,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 381) (xy 111.76 381)
+			(xy 128.27 378.46) (xy 111.76 378.46)
 		)
 		(stroke
 			(width 0)
@@ -12616,7 +12616,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 398.78) (xy 128.27 398.78)
+			(xy 111.76 383.54) (xy 128.27 383.54)
 		)
 		(stroke
 			(width 0)
@@ -12836,7 +12836,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 401.32) (xy 128.27 401.32)
+			(xy 111.76 398.78) (xy 128.27 398.78)
 		)
 		(stroke
 			(width 0)
@@ -15356,7 +15356,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 375.92) (xy 111.76 375.92)
+			(xy 128.27 452.12) (xy 111.76 452.12)
 		)
 		(stroke
 			(width 0)
@@ -16446,7 +16446,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 396.24) (xy 128.27 396.24)
+			(xy 111.76 401.32) (xy 128.27 401.32)
 		)
 		(stroke
 			(width 0)
@@ -16655,7 +16655,7 @@
 		(uuid "168edec6-3918-47dd-bbb1-1cb40d2636f5")
 	)
 	(label "COL5_R"
-		(at 128.27 396.24 180)
+		(at 128.27 401.32 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16725,7 +16725,7 @@
 		(uuid "2d7ae9e9-48f7-419b-8fe1-045bbee3e764")
 	)
 	(label "COL4_R"
-		(at 128.27 393.7 180)
+		(at 128.27 396.24 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16875,7 +16875,7 @@
 		(uuid "4386cc0f-5c12-4550-ae08-3cefc40b5bfd")
 	)
 	(label "LED_R"
-		(at 128.27 375.92 180)
+		(at 128.27 452.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16905,7 +16905,7 @@
 		(uuid "51e979a8-a2dc-48a1-ae62-0972286c0419")
 	)
 	(label "ROW1_R"
-		(at 128.27 401.32 180)
+		(at 128.27 398.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17175,7 +17175,7 @@
 		(uuid "8ade6501-1b0f-488e-b221-9581a71a74de")
 	)
 	(label "VBUS_PRESENCE_R"
-		(at 128.27 378.46 180)
+		(at 128.27 375.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17285,7 +17285,7 @@
 		(uuid "b081eb9a-931b-4001-b377-9f13be159437")
 	)
 	(label "SERIAL_R"
-		(at 128.27 381 180)
+		(at 128.27 378.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17375,7 +17375,7 @@
 		(uuid "cb430a1b-6d54-4354-89d2-e6fcf42cc33d")
 	)
 	(label "COL0_R"
-		(at 128.27 383.54 180)
+		(at 128.27 381 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -17545,7 +17545,7 @@
 		(uuid "f17cf65b-ccea-4abe-8645-bc4277845ddb")
 	)
 	(label "ROW0_R"
-		(at 128.27 398.78 180)
+		(at 128.27 383.54 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29101,7 +29101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "GND_R"
 			(at 260.35 280.67 0)
 			(effects
 				(font
@@ -30243,13 +30243,13 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 167.64 375.92 90)
+		(at 167.64 375.92 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "63f151d8-d1df-4da0-be00-1afeee4d6f8d")
 		(property "Reference" "R104"
 			(at 167.64 369.57 90)
@@ -47833,7 +47833,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f0fbffda-6a93-4b18-9cbc-6512b3e48205")
 		(property "Reference" "U101"
 			(at 88.5541 458.47 0)
