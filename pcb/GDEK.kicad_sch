@@ -20163,7 +20163,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "GDEK:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 176.53 73.406 0)
 			(effects
 				(font
@@ -32284,7 +32284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
+		(property "Footprint" "GDEK:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 176.53 312.166 0)
 			(effects
 				(font
