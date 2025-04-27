@@ -7,7 +7,7 @@
 	(title_block
 		(title "GDEK")
 		(date "2025-02-01")
-		(rev "0.1.0")
+		(rev "1.0.0")
 		(company "GilDev")
 	)
 	(lib_symbols
