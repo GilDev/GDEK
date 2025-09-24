@@ -378,8 +378,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0 180)
-		(size 5.2 5.2)
-		(drill 5)
+		(size 5.22 5.22)
+		(drill 5.02)
 		(layers "*.Mask")
 		(uuid "21eb816b-c2f7-407f-899b-b6a10320283d")
 	)
@@ -495,6 +495,7 @@
 		)
 	)
 	(model "${KIPRJMOD}/GDEK.3dshapes/DSA_1u.step"
+		(hide yes)
 		(offset
 			(xyz 0 0 3)
 		)
