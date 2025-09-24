@@ -10746,7 +10746,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 279.4) (xy 176.53 279.4)
+			(xy 168.91 279.4) (xy 189.23 279.4)
 		)
 		(stroke
 			(width 0)
@@ -11166,16 +11166,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 40.64) (xy 189.23 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c67106b-2c5b-4d1d-a460-d30ff251dedf")
-	)
-	(wire
-		(pts
 			(xy 168.91 38.1) (xy 171.45 38.1)
 		)
 		(stroke
@@ -11476,16 +11466,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 279.4) (xy 189.23 279.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45e90eb0-a8dd-4060-9bf4-ea4965fafeaa")
-	)
-	(wire
-		(pts
 			(xy 111.76 175.26) (xy 128.27 175.26)
 		)
 		(stroke
@@ -11766,7 +11746,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 40.64) (xy 176.53 40.64)
+			(xy 168.91 40.64) (xy 189.23 40.64)
 		)
 		(stroke
 			(width 0)
@@ -25818,83 +25798,6 @@
 			(project "GDEK"
 				(path "/c27e6219-942d-4ad4-b4df-18894276b69d"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 40.64 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "40e02103-26dc-4303-943a-5330e1b790af")
-		(property "Reference" "R5"
-			(at 180.34 34.29 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 180.34 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 180.34 42.418 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25117"
-			(at 180.34 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b536bb1-5257-4484-9011-671afe87ec19")
-		)
-		(pin "2"
-			(uuid "95af079e-47c9-44d5-b092-796d895db09e")
-		)
-		(instances
-			(project ""
-				(path "/c27e6219-942d-4ad4-b4df-18894276b69d"
-					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -44266,83 +44169,6 @@
 			(project "GDEK"
 				(path "/c27e6219-942d-4ad4-b4df-18894276b69d"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 180.34 279.4 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da48b05b-959c-4172-8a80-8fd398ffb966")
-		(property "Reference" "R105"
-			(at 180.34 273.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470"
-			(at 180.34 275.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 180.34 281.178 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 180.34 279.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C25117"
-			(at 180.34 279.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "141723b6-c840-44aa-ac08-05cfa8be9c1e")
-		)
-		(pin "2"
-			(uuid "9b763d0e-049d-4ead-b2d5-57740d34ad8a")
-		)
-		(instances
-			(project "GDEK"
-				(path "/c27e6219-942d-4ad4-b4df-18894276b69d"
-					(reference "R105")
 					(unit 1)
 				)
 			)
